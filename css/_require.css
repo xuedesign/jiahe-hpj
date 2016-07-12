@@ -1,0 +1,40 @@
+/**
+*
+* @project    xuedesign studio project require list
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.0 - 201607
+*
+*=====================================*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html { font-size:62.5% }
+body{
+	margin: 0;
+	padding:0;
+	background: rgb(29,183,255); /*邊框色*/
+	font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+	font-size: 1rem; /* 1rem=10px */
+	color: #585858}
+form{margin:0; padding:0}
+image{border:0}
+::selection { background: #1c8fb2; color: #fff}
+::-moz-selection { background: #1c8fb2; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+.clean{ clear:both}
+.hidden{ display:none}
+
+#wrap{
+    display: block;
+    width: 96%;
+    margin: 2.2% auto;
+    background: rgb(240, 240, 240)/*頁面底色*/}
+h3{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    text-shadow: 1px 1px 1px #fff}
+p{ font-size: 1.5rem;
+    line-height: 2.2rem}
