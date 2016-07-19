@@ -9,6 +9,9 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+*{-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box}
 html { font-size:62.5% }
 body{
 	margin: 0;
@@ -31,10 +34,40 @@ img::-moz-selection { background: transparent}
     display: block;
     width: 96%;
     margin: 2.2% auto;
-    background: rgb(240, 240, 240)/*頁面底色*/}
-h3{
+    background: rgb(240, 240, 240)/*頁面底色*/
+}
+#bar-top{
+    display: block;
+    width: 100%;
+    padding: 15px 30px;
+    background: #1d1d91;
+    text-align: center
+}
+h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #fff
+}
+.box_info{
+    display: block;
+    width: 85%;
+    margin: 30px auto
+}
+.box_info ol{
+    margin-bottom: 30px
+}
+.box_info li{
+    padding: 20px 0;
+    border-bottom: 1px dashed #717070
+}
+.box_info h3{
     font-size: 1.8rem;
     line-height: 2.5rem;
-    text-shadow: 1px 1px 1px #fff}
-p{ font-size: 1.5rem;
-    line-height: 2.2rem}
+    text-shadow: 1px 1px 1px #fff;
+    color: #1D1D91
+}
+.box_info p{ font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-shadow: 1px 1px 1px #fff;
+    padding-left: 1.8rem
+}

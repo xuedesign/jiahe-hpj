@@ -2,14 +2,17 @@
 <html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="description" content="客戶公司名稱"/>
 <meta name="Author" content="xuedesign studio" />
 <link rel="shortcut icon"  href="http://www.xuedesign.tw/images/favicon.ico"/>
 <link rel="icon" href="http://www.xuedesign.tw/images/favicon.ico"/>
 <title>【專案需求調查】嘉禾生技有限公司</title>
 <link rel="stylesheet" href="http://www.xuedesign.tw/css/reset.css" />
-<link rel="stylesheet" href="css/_require.css">
+<link rel="stylesheet" href="_require.css">
+<link rel="stylesheet" href="responsive-tabs.css">
+<link rel="stylesheet" href="style.css">
 <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
@@ -19,14 +22,23 @@
 </head>
 
 <body>
-    <div id="wrap">
-        <h1>嘉禾生技有限公司<br>網站製作需求表</h1>
+<div id="wrap">
+    <header id="bar-top">
+        <h1>嘉禾生技有限公司 / 網站製作需求表</h1>
+    </header>
         
-        <h2>公司基本資料</h2>
-        <ul>
+    <div id="horizontalTab">
+        <ul id="mainNav">
+            <li><a href="#tab-1">公司基本資料</a></li>
+            <li><a href="#tab-2">使用族群分析</a></li>
+            <li><a href="#tab-3">網站設計元素</a></li>
+		</ul>
+        
+        <div id="tab-1" class="box_info"><!--公司基本資料-->
+        <ol>
             <li>
                 <h3>專案屬性：</h3>
-                <p>新站建置│舊站改版│素材製作</p></li>
+                <p>新站建置<!--│舊站改版│素材製作--></p></li>
             <li>
                 <h3>公司名稱：</h3>
                 <p>嘉禾生技有限公司 Jiahe Biochemical CO., LTD</p></li>
@@ -38,57 +50,61 @@
                 <p>中文、英文</p></li>
             <li>
                 <h3>聯絡窗口：</h3>
-                <p></p></li>    
+                <p>黃品嘉 / 經理</p></li>    
             <li>
                 <h3>電話：</h3>
-                <p></p></li>
+                <p>+886-2-2908-8902</p></li>
             <li>
                 <h3>傳真：</h3>
-                <p></p></li>
+                <p>+886-2-2908-9060</p></li>
             <li>
                 <h3>電子信箱：</h3>
-                <p></p></li>
+                <p>jiahe.hpj@gmail.com</p></li>
             <li>
                 <h3>公司地址：</h3>
-                <p></p></li>        
-        </ul>
+                <p>242 新北市新莊區中正路706-13號12樓</p></li>
+        </ol>
+        </div>              
         
-        <h2>使用者分析</h2>
-        <ul>
+        
+        <div id="tab-2" class="box_info"><!--使用者分析-->
+        <ol>
            <li>
                 <h3>公司/產業屬性：</h3>
-                <p></p></li>
+                <p>醫學美容商品販售 / 客製化產品代工</p></li>
             <li>
                 <h3>市場分析/競業對手：</h3>
                 <p></p></li>    
             <li>
                 <h3>網站建置目的/功能/定位?</h3>
-                <p></p></li>
+                <p>公司形象宣傳</p></li>
             <li>
                 <h3>目標族群/對象?</h3>
-                <p></p></li>
+                <p>醫美診所 / 醫生</p></li>
             <li>
                 <h3>使用者需求為何?</h3>
-                <p></p></li>
+                <p>搜尋網站時有資料可以參考閱覽</p></li>
             <li>
                 <h3>使用者一般會在怎樣的時間、情境下使用網站?</h3>
-                <p></p></li>
+                <p>上班時間 / 辦公室桌機</p></li>
             <li>
                 <h3>使用者是以什麼步驟搜尋那些情報?</h3>
-                <p></p></li> 
+                <p>直接告知網址 / 少數會用搜尋</p></li> 
             <li>
                 <h3>使用者的心理是處於什麼狀態?</h3>
-                <p></p></li>
+                <p>無特別起伏，先了解公司情形為主</p></li>
             <li>
                 <h3>對於上述使用者的狀態，網站的應對策略為何?</h3>
-                <p></p></li>
+                <p>好閱讀的版面設計 / 詳盡的產品介紹</p></li>
             <li>
                 <h3>下一階段的挑戰為何?</h3>
-                <p></p></li>                 
-        </ul>
+                <p>RWD行動裝置版設計 / 直接在線上進行購物</p></li>
+        </ol>
+        </div>                             
         
-        <h2>網站設計元素</h2>
-        <ul>
+        
+        <div id="tab-3" class="box_info"><!--網站設計元素>-->
+        <ol>
             <li>
                 <h3>原網站的改進之處? / 新網站須注意的地方?</h3>
                 <p></p></li>
@@ -107,7 +123,13 @@
                 <p></p></li>    
             <li>
                 <h3>網站色彩喜好(色碼)：</h3>
-                <p></p></li>
+                <p>
+                    
+                </p></li>
+            <li>
+                <h3>網站字體：</h3>
+                <p>中文：</p>
+                <p>英文：</p></li>    
             <li>
                 <h3>網站關鍵字(8組)：</h3>
                 <p></p></li> 
@@ -116,10 +138,23 @@
                 <p></p></li>
             <li>
                 <h3>備註：</h3>
-                <p></p></li>                
-        </ul>
-    </div><!--// end #wrap -->    
+                <p></p></li>
+        </ol>
+        </div>
+    </div>                    
+</div><!--// end #wrap -->    
      
-    
+<script src="jquery-2.0.3.min.js"></script>
+<script src="jquery.responsiveTabs.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#horizontalTab').responsiveTabs({
+            startCollapsed: 'accordion',
+            collapsible: true,
+            rotate: false,
+            setHash: true
+        });
+    });
+</script> 
 </body>
 </html>

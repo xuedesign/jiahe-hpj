@@ -1,0 +1,66 @@
+.r-tabs {
+	position: relative;
+}
+
+.r-tabs .r-tabs-nav {
+    display: block;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.r-tabs .r-tabs-nav .r-tabs-tab {
+	position: relative;
+	top: 20px
+}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+	display: inline-block;
+    background: #00aadd;
+	margin:0 15px 3px;
+	padding: 10px 12px;	
+	text-decoration: none;
+    font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active {
+	background-color: #fff;
+	border: 2px solid #e7e7e7;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	color: #00aadd;
+	background-color: #fff;
+}
+
+.r-tabs .r-tabs-panel {
+	margin-bottom: 3px;
+}
+
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+	background-color: #00aadd;
+    font-size: 20px;
+    line-height: 25px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 3px;
+}
+
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #fff;
+	color: #00aadd;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-bottom: 0;
+}
