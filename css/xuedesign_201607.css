@@ -1,0 +1,75 @@
+/**
+*
+* @project    jiahe biochemical website
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.0 - 201607
+*
+*=====================================
+*   1 通用設定
+*   2.網站架構 
+*   3.首頁
+*       
+*       
+*       
+*=====================================
+**/
+
+
+/*
+=====================================
+通用設定
+=====================================
+*/
+html { font-size:62.5%}
+body{
+	background:#FFF;
+	font-family: 'Open Sans',"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	line-height:22px;
+	color:#231815}
+a:link {text-decoration:underline; color:#8c489f}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#573d7a}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+::selection {
+   background:#573d7a;
+   color:#fffcdb}
+::-moz-selection {
+   background:#573d7a;
+   color:#fffcdb}
+
+/*
+=====================================
+網站架構
+=====================================
+*/
+#wrap{ 
+    display:block;
+    width: 100%;
+    min-width: 1280px
+}
+header{
+    display: block;
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    background: url(../images/bg_header.png) repeat-x
+}
+#box-top{
+    display: block;
+    position: relative;
+    width: 1280px;
+    height: 111px;
+    margin: 0 auto
+}
+
+/*
+=====================================
+首頁
+=====================================
+*/
