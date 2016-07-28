@@ -2,12 +2,12 @@
 <html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="HPJ 為嘉禾生技針對皮膚學研發自創品牌商品，包含洗顏、保濕、面膜…等商品。清潔、保養、保濕都是HPJ的專業領域。除了單品銷售，HPJ亦提供客製化產品，想要屬於自我獨立商品品牌者，歡迎洽談。"/>
 <meta name="keywords" content="嘉禾, jiahe, 皮膚保護, 皮膚保溼, 肌膚補水, 皮膚代謝, 術後保養, 羽絲縷面膜"/>
-<meta name="Author" content="嘉禾生技有限公司 Jiahe Biochemical CO.,LTD" />
+<meta name="author" content="Created by xuedesign studio | 開始設計工作室 | www.xuedesign.tw" />
 <meta property="og:title" content="最初始的細胞修護概念從洗臉開始，HPJ帶您一起重新呵護自己" />
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="嘉禾生技有限公司" />
@@ -16,10 +16,11 @@
 <meta property="og:description" content="HPJ 為嘉禾生技針對皮膚學研發自創品牌商品，包含洗顏、保濕、面膜…等商品。清潔、保養、保濕都是HPJ的專業領域。除了單品銷售，HPJ亦提供客製化產品，想要屬於自我獨立商品品牌者，歡迎洽談。" />
 <link rel="shortcut icon"  href="images/favicon.ico"/>
 <link rel="icon" href="images/favicon.ico"/>
-<title>::: 最初始的細胞修護概念 從洗臉開始 :::嘉禾生技有限公司</title>
+<title>::: 最初始的細胞修護概念，從洗臉開始 :::嘉禾生技有限公司</title>
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 <link rel="stylesheet" href="css/xuedesign_201607.css"/>
+<link rel="stylesheet" href="css/flexslider.css"/>
 <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
@@ -41,11 +42,48 @@
         </div>
         </div>
     </header>
+    
+    <section id="box_banner" class="flexslider">
+        <ul class="slides"><!-- 欄位旁請加說明；圖片建議尺寸1920*393px -->
+            <li style="background:url(images/banner_01.jpg) top center"><a href="#"></a></li>
+            <li style="background:url(images/banner_01.jpg) top center"><a href="#"></a></li>
+            <li style="background:url(images/banner_01.jpg) top center"><a href="#"></a></li>
+        </ul>    
+    </section>
+    
+    <nav>
+        <ul>
+            <li><a href="about.html" title="公司簡介">公司簡介</a></li>
+            <li><a href="prosucts-list.html" title="醫美商品">醫美商品</a>
+                <ul>
+                    <li><a href="prosucts-list.html#series-01" title="保濕系列">保濕系列</a></li>
+                    <li><a href="prosucts-list.html#series-02" title="修復系列">修復系列</a></li>
+                    <li><a href="prosucts-list.html#series-03" title="美白系列">美白系列</a></li>
+                </ul></li>
+            <li><a href="customized.html" title="客製化服務">客製化服務</a></li>
+            <li><a href="video-list.html" title="影音專區">影音專區</a></li>
+            <li><a href="contact.html" title="聯絡我們">聯絡我們</a></li>
+        </ul>
+    </nav>
+    
+    <scetion id="container">
+        
+        
+    </scetion>
+    
     <footer></footer>
 </div><!--// end #wrap -->
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/7b7fd6d88b.js"></script>
+<script src="script/jquery.flexslider-min.js"></script>
+<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>   
+<script src="script/jquery.fancybox.pack.js"></script>
+<script>
+$(document).ready(function(){$(".fancybox").fancybox();$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}});$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}});$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}});$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,
+closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".fancybox-buttons").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",closeBtn:!1,helpers:{title:{type:"inside"},buttons:{}},afterLoad:function(){this.title="Image "+(this.index+1)+" of "+this.group.length+(this.title?" - "+this.title:"")}});$(".fancybox-thumbs").fancybox({prevEffect:"none",nextEffect:"none",closeBtn:!1,arrows:!1,nextClick:!0,helpers:{thumbs:{width:50,height:50}}});$(".fancybox-media").attr("rel",
+"media-gallery").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",arrows:!1,helpers:{media:{},buttons:{}}});$("#fancybox-manual-a").click(function(){$.fancybox.open("1_b.jpg")});$("#fancybox-manual-b").click(function(){$.fancybox.open({href:"iframe.html",type:"iframe",padding:5})});$("#fancybox-manual-c").click(function(){$.fancybox.open([{href:"1_b.jpg",title:"My title"},{href:"2_b.jpg",title:"2nd title"},{href:"3_b.jpg"}],{helpers:{thumbs:{width:75,height:50}}})})});    
+</script>  
 <script src="script/wow.min.js"></script>
 <script src="script/jquery.lazyload.js"></script>
 <script src="script/web_set.js"></script>

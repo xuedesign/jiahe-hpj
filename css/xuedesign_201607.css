@@ -51,25 +51,50 @@ image{border:0}
 #wrap{ 
     display:block;
     width: 100%;
-    min-width: 1280px
-}
-header{
+    min-width: 1280px}
+header,
+#box_banner{
     display: block;
-    position: relative;
     width: 100%;
-    min-width: 1280px;
-    background: url(../images/bg_header.png) repeat-x
-}
-#box-top{
-    display: block;
+    min-width: 1280px}
+header{
     position: relative;
+    background: url(../images/bg_header.png) repeat-x}
+#box-top,
+footer{
+    display: block;
     width: 1280px;
-    height: 111px;
-    margin: 0 auto
-}
+    margin: 0 auto}
+#box-top{
+    position: relative;
+    height: 111px}
+#box_banner{
+    height: 393px}
+footer{}
 
 /*
 =====================================
 首頁
 =====================================
 */
+h1 a{
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 7px;
+    z-index: 99;
+    width: 517px;
+    height: 145px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden;
+    font-size: 0}
+
+/*Banner輪播*/
+.slides li{
+    display: block;
+    width: 100%;
+    height: 393px;
+}
+
