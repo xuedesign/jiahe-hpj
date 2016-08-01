@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/xuedesign_201607.css"/>
 <link rel="stylesheet" href="css/flexslider.css"/>
+<link rel="stylesheet" href="css/jquery.fancybox.css">
 <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
@@ -32,9 +33,9 @@
         <div id="subtool">
             <ul>
                 <li><a id="icon_lang" href="en/index.html" title="English Edition">English</a></li>
-                <li><a class="icon_wechat" href="#box_wechat" title="透過行動條碼加入Wechat好友">透過行動條碼加入Wechat好友</a></li>
-                <li><a class="icon_line" href="#box_line" title="透過行動條碼加入LINE好友">透過行動條碼加入LINE好友</a></li>
-                <li><a class="icon_fb" href="https://www.facebook.com/HPJ-嘉禾生技-783553025052670/" title="Facebook粉絲專頁">Facebook粉絲專頁</a></li>
+                <li><a class="icon_wechat fancybox" href="#box_wechat" title="透過行動條碼加入Wechat好友">透過行動條碼加入Wechat好友</a></li>
+                <li><a class="icon_line fancybox" href="#box_line" title="透過行動條碼加入LINE@生活圈">透過行動條碼加入LINE@生活圈</a></li>
+                <li><a class="icon_fb" href="https://www.facebook.com/HPJ-嘉禾生技-783553025052670/" title="Facebook粉絲專頁" rel="external">Facebook粉絲專頁</a></li>
             </ul>
             <p class="phone"><i class="fa fa-phone-square" aria-hidden="true"></i>諮詢專線：<span>0928-334-522</span></p>
         </div>
@@ -44,8 +45,9 @@
     <div id="box_banner" class="flexslider">
         <ul class="slides"><!-- 圖片建議尺寸1920*393px -->
             <li style="background:url(images/banner_01.jpg) top center"><a href="#"></a></li>
-            <li style="background:url(images/banner_01.jpg) top center"><a href="#"></a></li>
-            <li style="background:url(images/banner_01.jpg) top center"><a href="#"></a></li>
+            <li style="background:url(images/banner_02.jpg) top center"><a href="#"></a></li>
+            <li style="background:url(images/banner_03.jpg) top center"><a href="#"></a></li>
+            <li style="background:url(images/banner_04.jpg) top center"><a href="#"></a></li>
         </ul>    
     </div>
     
@@ -100,8 +102,9 @@
         </div>    
         <div id="box_fb">
             <script src="script/ifr.js"></script>
-            <script>ifr('https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHPJ-%E5%98%89%E7%A6%BE%E7%94%9F%E6%8A%80-783553025052670%2F&tabs=timeline&width=370&height=580&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId','370','580');</script>
+            <script>ifr('https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHPJ-%E5%98%89%E7%A6%BE%E7%94%9F%E6%8A%80-783553025052670%2F&tabs=timeline&width=370&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId','370','550');</script>
         </div>
+        <br class="clean">
     </div>
     
     <footer>
@@ -116,21 +119,34 @@
         <div id="contact-me">
             <h3>聯絡我們：</h3>
             <ul>
-                <li>(02)2908-8902 / 0928-344522</li>
-                <li>jiahe.hpj@gmail.com</li>
-                <li>242 新北市新莊區中正路706-13號12樓</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>(02)2908-8902 / 0928-344522</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>jiahe.hpj@gmail.com</li>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>242 新北市新莊區中正路706-13號12樓</li>
             </ul>
         </div>
         <div id="social-tools">
             <h3>社群連結：</h3>
             <ul>
-                <li><a class="icon_wechat" href="#box_wechat" title="透過行動條碼加入Wechat好友">透過行動條碼加入Wechat好友</a></li>
-                <li><a class="icon_line" href="#box_line" title="透過行動條碼加入LINE好友">透過行動條碼加入LINE好友</a></li>
-                <li><a class="icon_fb" href="https://www.facebook.com/HPJ-嘉禾生技-783553025052670/" title="Facebook粉絲專頁">Facebook粉絲專頁</a></li>
+                <li><a class="icon_fb" href="https://www.facebook.com/HPJ-嘉禾生技-783553025052670/" title="Facebook粉絲專頁" rel="external">Facebook粉絲專頁</a></li>
+                <li><a class="icon_line fancybox" href="#box_line" title="透過行動條碼加入LINE@生活圈">透過行動條碼加入LINE@生活圈</a></li>
+                <li><a class="icon_wechat fancybox" href="#box_wechat" title="透過行動條碼加入Wechat好友">透過行動條碼加入Wechat好友</a></li>            
             </ul>
-        </div>    
+        </div>
+        <br class="clean">   
     </footer>
 </div><!--// end #wrap -->
+
+<div id="box_line">
+    <h3>一起Line吧！</h3>
+    <p>歡迎加入嘉禾生技的Line@生活圈<br>隨時隨地接收嘉禾生技的最新動態</p>
+    <img src="images/my_qrcode-LINE.png" alt="嘉禾生技Line@生活圈">
+</div>
+
+<div id="box_wechat">
+    <h3>一起WeChat吧！</h3>
+    <p>歡迎加入嘉禾生技的WeChat群組<br>隨時隨地接收嘉禾生技的最新動態。</p>
+    <img src="images/my_qrcode-WeChat.jpg" alt="嘉禾生技WeChat官方帳號">
+</div>
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/7b7fd6d88b.js"></script>
