@@ -15,6 +15,12 @@
 *       3-4. 內容區塊
 *       3-5. 版權列
 *       3-6. Lightbox區塊
+*   4. 內頁
+*       4-1. 公司簡介
+*       4-2. 醫美商品
+*       4-3. 客製化服務
+*       4-4. 影音專區
+*       4-5. 聯絡我們
 *=====================================
 **/
 
@@ -90,6 +96,7 @@ footer{
 首頁
 =====================================
 */
+
 /*頂端列*/
 h1 a{
     display: block;
@@ -187,6 +194,7 @@ h1 a{
     text-decoration: none;
     margin: 0 55px}
 .navigation li a:hover{ color: rgb(247, 192, 234)}
+
 .navigation ul{
 	display: none;
 	float: left;
@@ -213,7 +221,7 @@ h1 a{
     text-decoration:none;
     background: rgba(86,95,100,1)}
 
-.underline-reveal {
+.underline-reveal{
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -224,7 +232,7 @@ h1 a{
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     overflow: hidden}
-.underline-reveal:before {
+.underline-reveal:before{
     content: "";
     position: absolute;
     z-index: -1;
@@ -298,7 +306,26 @@ h1 a{
     margin: 0 auto 15px auto;
     box-shadow: 0 0 24px #d9caea}
 #hot-sales li:hover img{
-    box-shadow: 0 0 24px #b295d4}
+    -webkit-animation-name: bgcolor;
+    animation-name: bgcolor;
+    -webkit-animation-duration: 1000ms;
+    -moz-animation-duration: 1000ms;
+	animation-duration: 1000ms;
+    box-shadow: 0 0 35px #b295d4}
+@-webkit-keyframes bgcolor {
+  from {
+    box-shadow: 0 0 35px #d9caea}
+  to {
+    box-shadow: 0 0 35px #b295d4}
+}
+
+@keyframes bgcolor {
+  from {
+    box-shadow: 0 0 35px #d9caea}
+  to {
+    box-shadow: 0 0 35px #b295d4}
+}
+
 #hot-sales a,
 #hot-sales a:hover,
 #hot-sales a:visited{
@@ -387,3 +414,40 @@ footer h3{
 	font-size:1.5rem;
 	line-height:25px;
 	margin-bottom:15px}
+
+/*
+=====================================
+內頁
+=====================================
+*/
+#bar_title{}
+#bar_title h3{
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #443266}
+#bar_social{
+    display: block;
+    float: right;
+    width: 50%;
+    text-align: right}
+.bar_cookie{
+    display: block;
+    float: right;
+    font-size: 1.5rem;
+    margin-right: 15px}
+.fa{ 
+    margin-right: 8px;
+    color: #573d7a }
+.bar_fb{
+    display: block;
+    float: right}
+#page-main{}
+
+/*公司簡介*/
+/*醫美商品*/
+/*客製化服務*/
+/*影音專區*/
+/*聯絡我們*/
