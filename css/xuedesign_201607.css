@@ -385,8 +385,10 @@ footer h3{
 #contact-me{
     width: 305px}
 #contact-me .fa{
-    width: 30px;
+    width: 20px;
     color: #8457aa}
+#contact-me span{
+    padding-left: 30px}
 #social-tools{
     width: 162px}
 #social-tools .icon_fb,
@@ -420,14 +422,22 @@ footer h3{
 內頁
 =====================================
 */
-#bar_title{}
-#bar_title h3{
+#bar_title,
+#page-main{
     display: block;
-    float: left;
-    width: 50%;
+    width: 90%;
+    margin: 0 auto}
+#page-main{ 
+    clear: both}
+#bar_title h3,
+#page-main h3{
     font-size: 2.2rem;
     font-weight: 400;
     color: #443266}
+#bar_title h3{
+    display: block;
+    float: left;
+    width: 50%}
 #bar_social{
     display: block;
     float: right;
@@ -444,9 +454,45 @@ footer h3{
 .bar_fb{
     display: block;
     float: right}
-#page-main{}
 
 /*公司簡介*/
+.img_profile{
+    display: block;
+    float: left;
+    width: 315px}
+#box_porfile{
+    display: block;
+    float: right;
+    width: 837px;
+    padding: 15px 40px}
+#box_porfile h4{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    color: #8457aa}
+#box_porfile p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    padding-bottom: 30px}
+#box_porfile ul{}
+#box_porfile li a{
+    display: block;
+    float: left;
+    width: 105px;
+    background: url(../images/bg_service-item.png) no-repeat;
+    margin: 0 15px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color:#231815;
+    text-decoration: none}
+#box_porfile .service-item-01{ background-position: 0 0}
+#box_porfile .service-item-02{ background-position: -105px 0}
+#box_porfile .service-item-03{ background-position: -210px 0}
+#box_porfile .service-item-04{ background-position: -315px 0}
+
+
 /*醫美商品*/
 /*客製化服務*/
 /*影音專區*/
