@@ -15,3 +15,8 @@ window.onload = externalLinks;
 $(function() {
           $("#container img").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
       });
+
+/*返回頂端按鈕*/
+$(document).ready(function() {
+    $().UItoTop({ easingType: 'easeOutQuart' });
+	});    
