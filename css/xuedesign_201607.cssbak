@@ -309,8 +309,8 @@ h1 a{
     -moz-border-radius: 10px;
     border-radius: 10px;
     /*box-shadow: 0 0 24px #d9caea*/}
-#hot-sales li:hover img{
-    /*-webkit-animation-name: bgcolor;
+/*#hot-sales li:hover img{
+    -webkit-animation-name: bgcolor;
     animation-name: bgcolor;
     -webkit-animation-duration: 1000ms;
     -moz-animation-duration: 1000ms;
@@ -405,8 +405,10 @@ footer h3{
 #contact-me{
     width: 305px}
 #contact-me .fa{
-    width: 20px;
+    width: 16px;
     color: #8457aa}
+#contact-me span{
+    padding-left: 30px}
 #social-tools{
     width: 162px}
 #social-tools .icon_fb,
@@ -480,7 +482,7 @@ footer h3{
     padding-bottom: 15px}
 #bar_title h3,
 #page-main h3{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     color: #443266}
 #bar_title h3{
@@ -616,7 +618,6 @@ footer h3{
     font-size: 1.6rem;
 	color: #fff;
 	font-weight: normal;
-    text-align: center;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;}
@@ -663,92 +664,6 @@ footer h3{
 .r-tabs .r-tabs-panel.r-tabs-state-active {
     display: block}
 
-.box_info{
-    display: block;
-    width: 100%;
-    margin-top: 30px}
-.photo_material{
-    display: block;
-    float: left;
-    width: 18%}
-.photo_material img{
-    display: block;
-    width: 160px;
-    height: 160px;
-    border: 1px solid #e1e1e1}
-.info_material{
-    display: block;
-    float: right;    
-    width: 82%}
-.info_material h4{
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 3.5rem;
-    letter-spacing: 1px;
-    color: #8457aa}
-
-.table_material{
-    width: 100%;
-    /*border: 2px solid #e1e1e1*/}
-.table_material th{
-    padding: 8px;
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: normal;
-    letter-spacing: 1px;
-    color: #fff;
-    background: #8457AA;
-    border-right: 1px solid #B890DA}
-.table_material td{
-    font-size: 1.5rem;
-    line-height: 2.2rem;
-    text-align: center;
-    text-shadow: 1px 1px 3px #fff;
-    padding: 8px;
-    border: 1px solid #d4d4d4}
-.table_material tr:nth-child(odd){
-    background-color: #e1e1e1}
 
 /*影音專區*/
-.playlist{
-    display: block;
-    width: 1152px;
-    margin: 0 auto}
-.playlist li{ 
-    display:block; 
-    position:relative; 
-    float:left; 
-    width: 340px; 
-    padding: 0; 
-    margin: 0 20px 30px}   		
-.playlist h5{
-	display:block;
-	width:340px;
-	height:46px; 
-    font-size: 1.6rem; 
-	line-height: 2.2rem; 
-	color:#2c2c2c;
-    text-align: center;
-	font-weight: normal;
-	overflow:hidden}
-.playlist .fancybox-media{
-	display:block;
-	position:absolute;
-	top:72px;
-	left:82px;
-	background:url(../images/btn_play.png) no-repeat;
-	width:136px;
-	height:136px;
-	text-indent:-9999px}
-.playlist .fancybox-media:hover{         
-    background: url(../images/btn_play.png) 0 -136px no-repeat}
-
 /*聯絡我們*/
-.contact-info{
-    display: block;
-    float: left;
-    width: 576px}
-.contact-forms{
-    display: block;
-    float: right;
-    width: 576px}
