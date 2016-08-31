@@ -31,12 +31,12 @@
 通用設定
 =====================================
 */
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
 html { font-size:62.5%}
 body{
 	background:#FFF;
-	font-family: 'Noto Sans TC',"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-family: 'cwTeXHei',"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	line-height:22px;
 	color:#231815}
@@ -752,3 +752,26 @@ footer h3{
     display: block;
     float: right;
     width: 576px}
+.contact-info h4,
+.contact-forms h4{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color: #8457aa}
+.contact-info h5{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #696969;
+    padding: 15px 0 0 17px}
+.contact-list{}
+.contact-list li{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    border-bottom: 1px dashed #bebdbd;
+    padding: 8px 0;
+    margin: 0 100px 0 17px}
+.contact-list li ol{
+    padding-left: 30px}
+.contact-list li li{
+    list-style: decimal;
+    border-bottom: none;
+    padding: 0}
