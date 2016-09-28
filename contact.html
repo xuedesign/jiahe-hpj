@@ -2,7 +2,7 @@
 <html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="HPJ 為嘉禾生技針對皮膚學研發自創品牌商品，包含洗顏、保濕、面膜…等商品。清潔、保養、保濕都是HPJ的專業領域。除了單品銷售，HPJ亦提供客製化產品，想要屬於自我獨立商品品牌者，歡迎洽談。"/>
 <meta name="keywords" content="嘉禾, jiahe, 皮膚保護, 皮膚保溼, 肌膚補水, 皮膚代謝, 術後保養, 羽絲縷面膜"/>
@@ -109,11 +109,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </ul> 
             </div>   
             <div class="contact-forms">
-                <!--<h4>[ 問題諮詢 / 意見反映 ]</h4>-->
+                <h4>[ 嘉禾生技客服諮詢 ]</h4>
+                <p>您好！如有任何對本公司的提問或建議，請留下您的意見及聯絡資訊，我們會儘快與您回覆，謝謝。</p>
                 <div class="forms-main">
-                    <iframe src="https://docs.google.com/a/xuedesign.tw/forms/d/e/1FAIpQLSfZ7PfCthIWNKrnPAGsOK7_7H6bgKFsc7_lTwvn4NaLCIW0wg/viewform?embedded=true" width="500" height="1000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">載入中…</iframe>
-                    <!--<script src="script/ifr.js"></script>
-                    <script>ifr('form.html','576','500');</script>-->
+                   <form action="https://formspree.io/hello@xuedesign.tw" method="POST">
+                        <input type="text" name="姓名" placeholder="貴姓大名">
+                        <input type="text" name="公司單位" placeholder="公司單位(個人免填)">
+                        <input type="tel" name="電話" placeholder="聯絡電話">
+                        <input type="email" name="電子郵件" placeholder="聯絡信箱">
+                        <textarea rows="4" cols="50" name="message" placeholder="提問內容"></textarea>
+                        <input type="submit" value="Send">
+                        <input type="hidden" name="_next" value="http://127.0.0.1/thanks.html" />
+                        <input type="hidden" name="_subject" value="【通知】你有一則新的客戶意見反映" />
+                        <input type="hidden" name="_cc" value="elmo.wu@gmail.com" />
+                    </form>
                 </div>
             </div>
             <br class="clean">           
