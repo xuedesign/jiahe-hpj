@@ -775,3 +775,34 @@ footer h3{
     list-style: decimal;
     border-bottom: none;
     padding: 0}
+.contact-list img{
+    display: block;
+    float: left;
+    width: 45%;
+    margin: 5px 10px}
+
+.forms_title{
+    display: block;
+    font-size: 1.6rem;
+    line-height: 2.8rem}
+.forms-main{
+    display: block;
+    padding-left: 15px}
+.forms-main input,
+.forms-main textarea{
+    display: block;
+    width: 80%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #a3a3a3;
+    font-size: 1.5rem;
+    line-height: 2.2rem}
+.forms-main input:focus,
+.forms-main textarea:focus{
+    border: 1px solid #8457aa;
+    -webkit-box-shadow: 0 0 10px #b69dcb;
+    -moz-box-shadow:0 0 10px #b69dcb;
+    box-shadow: 0 0 10px #b69dcb;}
