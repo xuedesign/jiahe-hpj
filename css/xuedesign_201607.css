@@ -806,3 +806,17 @@ footer h3{
     -webkit-box-shadow: 0 0 10px #b69dcb;
     -moz-box-shadow:0 0 10px #b69dcb;
     box-shadow: 0 0 10px #b69dcb;}
+.icon_mail{
+    display: block;
+    width: 254px;
+    margin: 0 auto}
+.forms-main h5{
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 4rem}
+.forms-main p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: center;
+    padding-top: 15px}
