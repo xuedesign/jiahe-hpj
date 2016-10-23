@@ -490,6 +490,10 @@ footer h3{
     display: block;
     float: left;
     width: 50%}
+#page-main h4{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #443266}
 #bar_social{
     display: block;
     float: right;
@@ -599,6 +603,15 @@ footer h3{
 
 
 /*客製化服務*/
+.tablelist-left,
+.tablelist-right{
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 20px}
+.tablelist-left h4,
+.tablelist-right h4{
+    padding: 30px 0 8px}
 .r-tabs {
 	position: relative}
 .r-tabs .r-tabs-nav {
