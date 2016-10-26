@@ -601,6 +601,111 @@ footer h3{
 .box_series li a{
     text-decoration: none}
 
+#box_photo{
+    display: block;
+    float: left;
+    width: 440px;}
+#box_pinfo{
+    display: block;
+    float: right;
+    width: 710px;
+    padding: 20px 15px 0}
+#box_pinfo p{
+    text-align: justify}
+#box_pinfo h4{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 5rem;
+    letter-spacing: 1px;
+    color: #8457aa}
+#box_pinfo img{
+    display: block;
+    float: left;
+    width: 330px;
+    margin: 0 5px;
+    border: 1px solid #e1e1e1}
+#box_price{
+    display: block;
+    width: 85%;
+    margin: 20px auto 0 auto;
+    padding: 15px;
+    border-top: 1px solid #c6c6c6;
+    border-bottom: 1px solid #e1e1e1}
+#box_price h5,
+#box_price a{
+    display: block;
+    float: right;
+    margin: 0 15px}
+#box_price h5{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 1px}
+#box_price h5 span{
+    color: #932b27}
+#box_photo .mybtn,
+#box_pinfo .mybtn{
+    display: block;
+    width: 120px;
+    padding: 5px 8px;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 2px solid;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none}
+#box_photo .btn-pink{
+    color: #fff;
+    background: #8457aa;
+    border-color: #B493C2}
+#box_photo .btn-pink:hover{
+    color: #fff;
+    border-color: #8457aa;
+    background: #622994;
+    -webkit-transition: all 0.5s ease 0s;
+    /* 變動類別;動畫時間;動畫加速屬性;延遲發生時間 */
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;}
+#box_pinfo .btn-back{
+    float: right;
+    margin-top: 15px;
+    color: #fff;
+    background: #acacac;
+    border-color: #909090}
+#box_pinfo .btn-back:hover{
+    color: #fff;
+    background: #888;
+    border-color: #909090
+    -webkit-transition: all 0.5s ease 0s;
+    /* 變動類別;動畫時間;動畫加速屬性;延遲發生時間 */
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;}
+
+#box_recommend{
+    display: block;
+    padding: 30px 10px 0}
+#box_recommend ul{
+    padding: 5px 0 30px}
+#box_recommend li{
+    display: inline-block;
+    width: 198px;
+    margin: 0 10px;}
+#box_recommend img{
+    display: block;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 8px}
+#box_recommend p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center}
+#box_recommend a:link,
+#box_recommend a:visited {text-decoration: none}
+
 
 /*客製化服務*/
 .tablelist-left,
