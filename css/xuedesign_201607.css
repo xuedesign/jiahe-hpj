@@ -312,14 +312,14 @@ h1 a{
     -moz-border-radius: 10px;
     border-radius: 10px;
     /*box-shadow: 0 0 24px #d9caea*/}
-#hot-sales li:hover img{
+#hot-sales li:hover img{}
     /*-webkit-animation-name: bgcolor;
     animation-name: bgcolor;
     -webkit-animation-duration: 1000ms;
     -moz-animation-duration: 1000ms;
 	animation-duration: 1000ms;
-    box-shadow: 0 0 35px #b295d4*/}
-/*@-webkit-keyframes bgcolor {
+    box-shadow: 0 0 35px #b295d4}
+@-webkit-keyframes bgcolor {
   from {
     box-shadow: 0 0 35px #d9caea}
   to {
@@ -350,7 +350,6 @@ h1 a{
   transform: scale(1.1)}
 
 #hot-sales a,
-#hot-sales a:hover,
 #hot-sales a:visited{
     font-size: 1.5rem;
     font-weight: 300px;
@@ -358,7 +357,14 @@ h1 a{
     text-align: center;
     text-decoration: none;
     color: #231815}
-#hot-sales .product-name{
+#hot-sales a:hover{
+    color:#8c489f;
+    border-bottom: none}
+/*.box_series li:hover p{
+    color:#8c489f;
+    border-bottom: none}*/
+#hot-sales .product-name,
+#page-main .product-name{
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: 1px}
@@ -480,7 +486,7 @@ footer h3{
 #page-main p{
     font-size: 1.5rem;
     line-height: 2.2rem;
-    padding-bottom: 15px}
+    /*padding-bottom: 5px*/}
 #bar_title h3,
 #page-main h3{
     font-size: 2.2rem;
@@ -558,9 +564,12 @@ footer h3{
     color: #8457aa}
 .box_series p{
     font-size: 1.6rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     color: #464646;
     border-bottom: 1px solid #e1e1e1}
+.box_series span{
+    color: #932b27;
+    padding: 0 8px}
 .box_series ul{
     display: block;
     margin: 10px 0 30px 0;
@@ -610,15 +619,45 @@ footer h3{
     float: right;
     width: 710px;
     padding: 20px 15px 0}
-#box_pinfo p{
-    text-align: justify}
 #box_pinfo h4{
     font-size: 2rem;
     font-weight: 500;
     line-height: 5rem;
     letter-spacing: 1px;
     color: #8457aa}
+#box_pinfo h5{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    letter-spacing: 1px}
+#box_pinfo p{
+    text-align: justify;
+    padding-bottom: 15px}
 #box_pinfo img{
+    display: block;
+    margin: 0 auto 20px auto}
+#box_pinfo .mylist{
+    display: block;
+    margin: 0 20px 30px}
+#box_pinfo .mylist li{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 8px 0;
+    border-bottom: 1px dashed #cccccc}
+
+#box_pinfo .kit-photo,
+#box_pinfo .kit-info{
+    display: block;
+    float: left}
+#box_pinfo .kit-photo{
+    width: 150px;
+    height: 150px;
+    /*border: 1px solid #e1e1e1;*/
+    margin-right:30px}
+#box_pinfo .kit-info{
+    width: 400px}
+
+#box_report img{
     display: block;
     float: left;
     width: 330px;
@@ -704,7 +743,9 @@ footer h3{
     letter-spacing: 1px;
     text-align: center}
 #box_recommend a:link,
-#box_recommend a:visited {text-decoration: none}
+#box_recommend a:visited {
+    color:#8c489f;
+    text-decoration: none}
 
 
 /*客製化服務*/
