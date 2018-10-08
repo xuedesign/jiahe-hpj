@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.jiahe-hpj.com/</loc>
+  <lastmod>2016-11-07T03:09:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.jiahe-hpj.com/index.html</loc>
+  <lastmod>2016-11-07T03:09:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.jiahe-hpj.com/contact.html</loc>
+  <lastmod>2016-11-07T03:24:03+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.jiahe-hpj.com/about.html</loc>
+  <lastmod>2016-11-07T03:09:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.jiahe-hpj.com/prosucts-list.html</loc>
+  <lastmod>2016-11-07T03:09:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.jiahe-hpj.com/customized.html</loc>
+  <lastmod>2016-11-07T03:09:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.jiahe-hpj.com/video-list.html</loc>
+  <lastmod>2016-11-07T03:09:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>

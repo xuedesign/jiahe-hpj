@@ -4,33 +4,43 @@
 <meta charset="utf-8">
 <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
 <meta name="Author" content="xuedesign" />
-<link rel="shortcut icon"  href="https://www.xuedesign.tw/images/favicon.ico"/>
-<link rel="icon" href="https://www.xuedesign.tw/images/favicon.ico"/>
+<link rel="shortcut icon"  href="images/favicon.ico"/>
+<link rel="icon" href="images/favicon.ico"/>
 <title>【設計提案】嘉禾生技有限公司 JIAHE BIOCHEMICAL CO., LTD</title>
-<link href="https://www.xuedesign.tw/css/reset.css" rel="stylesheet">
+<link href="http://www.xuedesign.tw/css/reset.css" rel="stylesheet">
 <style>
     body{
-        display: block}
-	img{ display:block; margin:0; padding:0}
-    #wrap{
         display: block;
-        width: 1280px;
+        min-height:1446px;
+        background: url(../layout/images/bg_site-01.png) repeat-x}
+	img{ display:block; margin:0; padding:0}
+    #header,
+    #content-01,
+	#content-02,
+	#footer{
+        display: block;
+        width: 1239px;
+        min-width: 1239px;
         margin: 0 auto}
-    #index-01,
-    #index-02,
-    #index-03,
-    #index-04,
-    #index-05,
-    #index-06,
-    #footer{ display: block; width: 100%}
-    #index-01{ height: 692px; background: url(images/index_01.jpg)}
-    #index-02{ height: 656px; background: url(images/index_02.jpg)}
-    #index-03{ height: 498px; background: url(images/index_03.jpg)}
-    #index-04{ height: 488px; background: url(images/index_04.jpg)}
-    #index-05{ height: 494px; background: url(images/index_05.jpg)}
-    #index-06{ height: 640px; background: url(images/index_06.jpg)}
-    #footer{ height: 266px; background: url(images/footer.jpg)}
-    
+    #header{
+        height: 111px;
+        background: url(images/index-01_01.jpg) -1px 0 repeat-x}
+    #banner{
+        display: block;
+        width: 100%;
+        min-width: 1239px;
+        margin: 0 auto;
+        height: 393px;
+        background: url(images/index-01_02.jpg) center no-repeat}
+    #content-01{
+		height:277px;
+		background:url(images/index-01_03.jpg) repeat-x}
+    #content-02{
+		height:418px;
+		background:url(images/index-01_04.jpg) no-repeat}		
+	#footer{
+        height: 250px;
+        background: url(images/index-01_05.jpg) repeat-x}
 </style>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,17 +51,11 @@
 </head>
 
 <body>
-<div id="wrap">
-    <a href="content.html">
-    <div id="index-01"></div>
-    <div id="index-02"></div>
-    <div id="index-03"></div>
-    <div id="index-04"></div>
-    <div id="index-05"></div>
-    <div id="index-06"></div>
-    <div id="footer"></div>
-    </a>
-</div>
+<div id="header"></div>
+<div id="banner"></div>
+<div id="content-01"></div>
+<div id="content-02"></div>
+<div id="footer"></div>
 
 <!--Created by
   
