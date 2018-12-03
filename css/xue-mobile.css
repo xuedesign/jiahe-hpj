@@ -1,0 +1,712 @@
+@charset "utf-8";
+/*-- Created By
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+                 xuedesign studio 
+             https://www.xuedesign.tw/
+*
+*
+* @project    Bioevolve Technology Inc.
+* @Author     Elmo Woo <hello@xuedesign.tw>
+* @copyright  2018 xuedesign studio
+* @version    v1.0 - 201806-201807
+*
+**/
+
+/*
+=====================================
+平板裝置(寬>長)  for-tablet-landscape-up
+=====================================
+*/
+@media (max-width:1110px) { /*1000*/
+#atindex,
+#atpage,
+footer,
+footer .copyright{ min-width: 1000px}
+#box_top,
+#box_banner,
+#box_banner-page,
+#nav_main,
+#my-container,
+#foot-main{ width: 1000px}
+#nav_main li a:link,
+#nav_main li a:visited{ width: 200px}
+#box_banner{ height: 323px}
+#foot-main{ padding: 35px 0 0}    
+.foot-item{ margin-left: 75px}
+
+#box_top h1 a{
+    top: 30px;
+    left: 10px;
+    width: 500px;
+    height: 81px;
+    background: url(../images/logo-site-02.png) no-repeat;
+    background-size: contain;
+    background: url(../images/logo-site-02-ie.png) no-repeat \9;}     
+#body-indexleft{ width: 600px}
+#body-indexright{ width: 300px}
+#body-content{
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 20px}
+#body-aside{
+    width: 230px;
+    margin-left: 20px}
+.index-news-list,
+.index-newest-products{ 
+    width: 590px;
+    margin-right: 10px;
+    margin-left: 0/*55px*/}
+.index-news-list { margin-bottom: 50px}
+.index-news-item > .news-date{ width: 20%}
+.index-news-item > .news-title{ width: 75%}
+    
+.index-newest-products{ margin-bottom: 20px}
+.inproduce-item{ 
+    margin-right: 30px;
+    margin-left: 25px}
+.inproduce-item:nth-child(3),
+.inproduce-item:nth-child(6),
+.inproduce-item:nth-child(9){margin-right: 30px}
+.inproduce-item:first-child+li+li,
+.inproduce-item:first-child+li+li+li+li+li,
+.inproduce-item:first-child+li+li+li+li+li+li+li+li{margin-right: 30px}
+.pplist-index{
+    width: 300px;
+    margin: 0 0 30px 0/*60px*/}
+.fb-page{ margin-left: 0}
+.fb-comments, .fb-comments iframe[style] {
+    width: 100% !important}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important}
+.box_fbinfo{
+    width: 300px;
+    margin-left: 0}
+.box_fbinfo img{
+    width: 100%;
+    height: auto}
+
+#box_banner-page span{
+    width: 680px;
+    height: 259px;
+    overflow: hidden}
+#box_about-txt{ margin-bottom: 50px}    
+#box_about-img img{
+    width: 360px;
+    height: auto}
+
+#products-list,
+#products-list-sub{
+    width: 650px;
+    padding: 0 0 10px 50px}
+#products-list li,
+#products-list-sub li{width: 45%}
+#products-list li{ margin: 0 2% 10px}
+#products-list-sub li{ margin: 0 2% 10px}
+#list-name{ padding-left: 50px}
+#list-info{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto}
+#list-info li:first-child{
+    width: 90%}
+#product-name{
+    width: 90%; 
+    margin: 0 auto 10px auto}
+#product-info,
+#page-main,
+#how-to-buy{ 
+    width: 90%; 
+    margin: 0 auto 40px auto}
+#contact-list li a:link,
+#contact-list li a:visited{
+    /*width: 95px;*/
+    margin-right: 10px}
+    
+#company-info{
+    width: 480px;
+    padding-left: 0}
+#service-form{
+    width: 420px;
+    padding-left: 50px}
+}
+
+/*
+=====================================
+平板裝置(長>寬) for-tablet-portrait-up
+=====================================
+*/
+@media (max-width:800px) { /*750*/
+*{-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box}
+#atindex,
+#atpage,
+footer,
+footer .copyright{ min-width: 750px}
+#box_top,
+#box_banner,
+#box_banner-page,
+#nav_main,
+#my-container,
+#foot-main{ width: 750px}
+#nav_main li a:link,
+#nav_main li a:visited{ width: 150px}
+#box_banner{ height: 242px}
+#foot-main h3{ display: none}
+.foot-item{ margin-left: 45px}
+    
+#box_top h1 a{
+    top: 40px;
+    width: 400px;
+    height: 130px;
+    background-size: contain} 
+#box_topright{
+    right: 5px;
+    width: 345px;
+    text-align: right}    
+#box_topright h4{ font-size: 1.6em}
+#box_topright p{ display: none}
+#box_search,
+#ppsearch{ width: 85%}
+.box-left,
+.box-right { float: none}
+.mybtn-s{
+    width: 115px;
+    padding: 5px 10px}     
+#body-indexleft,
+#body-indexright{
+    width: 98%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding-right: 20px}
+#body-content{
+    width: 700px;
+    margin-left: 25px;
+    margin-right: 25px}
+#body-aside{ display: none}
+#my-container .index-news{ width: 50%}    
+.index-news-list,
+.index-newest-products,
+.pplist-index{ 
+    width: 90%;
+    margin-left: 45px}
+.inproduce-item{
+    width: 286px;
+    margin-right: 27px;
+    margin-left: 8px}
+.inproduce-item:nth-child(3),
+.inproduce-item:nth-child(6),
+.inproduce-item:nth-child(9){ margin-right: 27px}
+.inproduce-item:first-child+li+li,
+.inproduce-item:first-child+li+li+li+li+li,
+.inproduce-item:first-child+li+li+li+li+li+li+li+li{margin-right: 27px}
+.inproduce-item span{ width: 286px; height: 198px}
+.inproduce-item img{ height: 198px}
+.inproduce-item p{ max-width: 286px}
+.bg-01{
+    background-position: right 180px}
+.bg-02{
+    background-position: right 120px}
+.fb-comments, .fb-comments iframe[style] {
+    width: 96% !important}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 96% !important}
+.fb-page{ 
+    margin-left: 45px; 
+    margin-bottom: 50px}
+#box_banner-page{ height: 130px}
+#box_banner-page h2{ 
+    width: 35%; 
+    font-size: 4em;
+    padding-top: 35px}
+#box_banner-page.banner-color-06>h2{
+    padding-top: 20px}
+#box_banner-page span{ width: 65%}
+#box_banner-page img{ width: 100%; height: auto}     
+#box_about-img img{ width: 90%; height: auto}
+/*#warranty-list a:link,
+#warranty-list a:visited{ width: 130px}
+#warranty-list a.lineid{ width: 180px}*/
+    
+#products-list,
+#products-list-sub{
+    width: 100%;
+    padding: 0 0 10px}
+/*#products-list li{
+    width: 45%;
+    margin: 0 2% 40px}*/
+#list-info li:first-child{
+    width: 100%}
+.btn_backlist{
+    display: block;
+    margin-bottom: 50px}
+#bar_PageNumber{ margin-bottom: 0}
+#bar_PageNumber a:link,
+#bar_PageNumber span{
+    font-size: 1.8em;
+    line-height: 2.2em;
+    padding: 0 25px}
+
+.news-item > .news-date{ width: 20%}
+.news-item > .news-title{ width: 75%}
+#news-main img{ width: 95%; height: auto}
+    
+#company-info{
+    width: 350px;
+    padding-left: 0}
+#service-form{
+    width: 350px;
+    padding-left: 50px}
+#company-info h4{
+    font-size: 2.2em;
+    line-height: 1.5em}
+.btn_send{
+    margin-left: 0}
+.icon_facbook a,
+.icon_line a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_socel@3x.png) no-repeat;
+    background-size:70px 70px}
+.icon_line a{
+    background-position: -35px 0}
+.icon_facbook a:hover,
+.icon_line a:hover{
+    background: url(../images/icon_socel@3x.png) no-repeat;
+    background-size:70px 70px}
+.icon_facbook a:hover{ background-position: 0 -35px}
+.icon_line a:hover{ background-position: -35px -35px}
+}
+
+/*
+=====================================
+平板裝置(7"~8"小平板) for-SnmallTablet
+=====================================
+*/
+@media (max-width: 600px) { /*573*/
+#atindex,
+#atpage,
+footer,
+footer .copyright{ min-width: 573px}
+#box_top,
+#box_banner,
+#box_banner-page,
+#nav_main,
+#my-container,
+#foot-main{ width: 573px}
+#nav_main li a:link,
+#nav_main li a:visited{ width: 114px}
+#box_banner{ height: 184px}
+#foot-main{ padding: 25px 0 0}
+/*footer{ height: 320px}*/
+.foot-item{ margin-left: 10px; margin-right: 20px}
+.foot-item:nth-child(2){ width: 40%}
+
+#box_top h1 a{
+    top: 10px;
+    width: 170px;
+    height: 130px;
+    background: url(../images/logo-site-03.png) no-repeat;
+    background-size: 400px 130px;
+    overflow: hidden}
+#box_topright{ right: 10px}
+#body-indexleft,
+#body-indexright{ width: 92%; padding-right: 0}
+#body-content{ width: 95%; margin:0 auto}
+
+.index-news-item > .news-date{ width: 25%}
+.index-news-item > .news-title{ width: 72%}
+.inproduce-item{
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 8px}
+.inproduce-item:nth-child(3),
+.inproduce-item:nth-child(6),
+.inproduce-item:nth-child(9){ margin-right: 20px}
+.inproduce-item:first-child+li+li,
+.inproduce-item:first-child+li+li+li+li+li,
+.inproduce-item:first-child+li+li+li+li+li+li+li+li{margin-right: 20px}
+.inproduce-item span{ width: 200px; height: 138px}
+.inproduce-item img{ height: 138px}
+.inproduce-item p{ max-width: 200px}
+
+#container-top h2{ 
+    float: none; 
+    width: 90%; 
+    text-align: left}
+#bar-cookie{ display: none}
+#box_banner-page{ height: 100px}
+#box_banner-page h2{ 
+    width: 35%; 
+    font-size: 3em;
+    padding: 30px 30px 0 20px}
+#box_banner-page.banner-color-06>h2{ 
+    font-size: 2.5em;
+    padding: 20px 30px 0 20px}    
+#box_banner-page span{ width: 65%} 
+#box_about-txt{ padding-right: 15px}
+#warranty-list a:link,
+#warranty-list a:visited{
+    display: block;
+    margin: 0 auto 15px auto}
+#box_error h3,
+#box_error p{ line-height: 1.8em}
+
+#products-list li{
+    height: 260px;
+    margin-bottom: 20px}
+#products-list-sub li{
+    height: 280px;
+    margin-bottom: 20px}
+#products-list span,
+#products-list-sub span{
+    display: block;
+    width: 100%;
+    height: 179px;
+    overflow: hidden}
+#products-list img,
+#products-list-sub img{
+    display: block;
+    height: 170px;
+    width: auto;
+    /*border: 1px solid #e4e3e4;*/
+    margin: 0 auto}
+#product-info li:nth-child(1){
+    display: block;
+    width: 100%}
+#contact-list .btn_back{ 
+    float: left;
+    margin-top: 15px}
+    
+.news-item{ margin-bottom: 10px}
+.news-item > .news-date,
+.news-item > .news-title{
+    display: block;
+    width: 99%;
+    text-align: left}
+.news-item > .news-date{
+    margin-bottom: 15px}
+.news-item > .news-title{ padding-left: 10px}
+
+#company-info,
+#service-form{
+    width: 95%;
+    margin: 0 auto 40px auto;
+    padding-left: 0}
+#company-info h4{
+    font-size: 2.2em;
+    line-height: 1.5em}
+.btn_send{
+    margin-left: 0}
+}
+
+/*
+=====================================
+手機(5"以上大螢幕) for-phone-only
+=====================================
+*/
+@media (max-width: 420px) { /*360*/
+#atindex,
+#atpage,
+footer,
+footer .copyright{ min-width: 360px}
+#box_top,
+#box_banner,
+#box_banner-page,
+#nav_main,
+#my-container,
+#foot-main{ width: 360px}
+#box_banner{ height: 116px}
+#foot-main{ padding: 20px 0 0}
+    
+#atindex{ background: none}
+#box_top{ height: 150px}
+#box_top h1 a{ 
+    top: 25px;
+    width: 250px;
+    height: 81px;
+    background: url(../images/logo-site-02.png) no-repeat;
+    background-size: contain;
+    overflow: hidden}
+#box_topright{
+    width: 100%;
+    margin: 0 auto;
+    top: 91px;
+    right: 20px}
+#box_topright h4{ display: none}
+#box_search,
+#ppsearch{ width: 90%}    
+    
+#nav_main{ display: none}
+footer{ height: auto; padding-bottom: 10px}
+.foot-item{
+    display: block;
+    width: 95%;
+    margin: 0 auto 15px auto}
+.foot-item:nth-child(2){ width: 90%}
+.foot-item:nth-child(3),
+.foot-item:nth-child(4){ 
+    display: inline-block;
+    width: 49%}
+.foot-item:nth-child(3){ padding-left: 19px}
+.foot-item:nth-child(4){ padding-left: 20px}
+
+#trigger-overlay{ 
+    display: block;
+    position: absolute;
+    top:18px;
+    right: 10px;
+    width: 46px;
+    height: 46px;
+    font-size: 2em;
+    color: #fff;
+    background: rgba(96, 25, 134, .7);
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px}
+#trigger-overlay:hover{
+    background: rgba(96, 25, 134, 1);
+    color: #fff;
+    transition: .5s}
+    
+.index-news-list,
+.index-newest-products,
+.pplist-index,
+.fb-page{ width: 95%; margin-left: 0}
+.index-news-item > .news-date{
+    margin: 15px 0}
+.index-news-item > .news-date,
+.index-news-item > .news-title{ 
+    display: block;
+    width: 99%;
+    text-align: left}        
+.inproduce-item{
+    width: 300px;
+    height: 290px;
+    margin-right: 17px;
+    margin-left: 17px}
+.inproduce-item span{ width: 300px; height: 207px}
+.inproduce-item img{ height: 207px}
+.inproduce-item p{
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.7em;
+    line-height: 1.6em;}
+.btn_more{ margin-right: 8px}
+#toTop{ display: none}
+ 
+#box_banner-page{ 
+    position: relative;
+    height: 165px}
+#box_banner-page h2{
+    position: absolute;
+    top: 115px/*208px*/;
+    left: 20px;
+    z-index: 99;
+    width: 90%;
+    font-size: 2.8em;
+    line-height: 1em;
+    padding: 0}
+#box_banner-page.banner-color-06>h2{
+    width: 95%;
+    top: 100px;
+    left: 10px;
+    font-size: 2.5em}
+#box_banner-page span{ 
+    width: 100%;
+    height: 165px}
+#box_banner-page img{
+    width: 100%;
+    height: auto}
+#container-top h2{ width: 98%}
+#body-full{ margin: -10px auto 0 auto}
+#box_about-img,
+#box_about-txt{
+    float: none;
+    width: 95%;
+    margin: 0 auto}
+#box_about-txt span{
+    display: block;
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    margin-bottom: 15px}
+#box_about-img{ 
+    display: flex;
+    height: 130px;
+    margin-bottom: 15px}
+#box_about-img img{    
+    width: 48%;
+    height: auto}
+#box_banner-page h2.long-title{ font-size: 3em}
+#box_privacy{ width: 95%; margin: 0 auto 40px auto}
+#box_privacy h4{ 
+    line-height: 1.7em; 
+    margin-bottom: 20px}
+    
+#products-list li,
+#products-list-sub li{
+    width: 95%;
+    margin: 0 2% 0}
+#products-list-sub li{ margin-bottom: 10px}
+#list-name{ padding-left: 25px}
+.list-sort a:nth-child(2),
+.list-sort a:nth-child(3),
+.list-sort a:nth-child(4){
+    display: block;
+    padding-left: 48px}
+#product-info li{
+    display: block;
+    width: 100%}
+#contact-list li a:link,
+#contact-list li a:visited{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px}
+#contact-list .btn_back{ 
+    width: 100%;
+    float: right}
+#bar_PageNumber a:link,
+#bar_PageNumber span{
+    font-size: 1.8em;
+    line-height: 2.2em;
+    padding: 0 18px}
+.btn_previous,
+.btn_next{ display: none}
+#news-main{ padding-top: 40px}
+    
+#company-info,
+#service-form{
+    width: 95%;
+    margin: 0 auto 40px auto;
+    padding-left: 25px}
+#company-info span{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px}
+#company-info .btn_line{ 
+    display: block;
+    margin: 8px 0 0 110px}    
+}
+
+/*
+=====================================
+手機(4.7"以下小螢幕) for-phone-only
+=====================================
+*/
+@media (max-width: 321px) { /*300*/
+#atindex,
+#atpage,
+footer,
+footer .copyright{ min-width: 300px}
+#box_top,
+#box_banner,
+#box_banner-page,
+#nav_main,
+#my-container,
+#foot-main{ width: 300px}
+#box_banner{ height: 97px}
+footer .copyright{ font-size: 1.3em}
+.foot-item{ width: 100%}
+.foot-item:nth-child(2){ width: 100%}
+.foot-item:nth-child(3){ 
+    display: inline-block;
+    width: 52%}
+.foot-item:nth-child(4){ 
+    display: inline-block;
+    width: 40%;
+    padding-left: 18px}
+#box_top h1 a{
+    top: 25px;
+    width: 200px;
+    height: 65px;
+    background-size: contain;
+    overflow: hidden}
+#box_topright{
+    top: 85px;
+    right: 0}
+#box_search{ width: 95%} 
+#ppsearch{ width: 85%} 
+    
+#my-container h2{
+    font-size: 2em;
+    padding: 0 0 15px 53px}
+.index-news-list td,
+.news-list td{ padding: 15px 5px}
+.news-data{ width: 10%}
+.news-data span{ font-size: 1em}
+.mybtn-xl,
+.mybtn-l,
+.mybtn-m,
+.mybtn-s{ font-size: 1.5em; line-height: 15px}
+.inproduce-item{ width: 245px}
+.inproduce-item span{ width: 245px; height: 169px}
+.inproduce-item img{ height: 169px}
+.inproduce-item p{ max-width: 245px}
+.foot-item:nth-child(2){ padding-left: 10px}
+
+#box_banner-page{ 
+    position: relative;
+    height: 140px}
+#box_banner-page h2{ 
+    top:100px;
+    font-size: 2.7em}
+#box_about-img{ 
+    display: flex;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 15px}
+#box_banner-page h2.long-title{ font-size: 2.5em}
+#bar_PageNumber a:link,
+#bar_PageNumber span{
+    font-size: 1.6em;
+    line-height: 2.2em;
+    padding: 0 13px}
+
+.post-date,
+.addthis_inline_share_toolbox{
+    float: none;
+    width: 100%}
+.addthis_inline_share_toolbox{
+    margin-top: 20px}
+#news-main{ padding-top: 20px}
+}
+
+
+/*
+=====================================
+for-retina-photo
+=====================================
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2.0), only screen and (min-resolution: 2dppx),
+(-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 192dpi){
+    .foot-logo,
+    #top-menu h2 a{
+        background: url(../images/logo-footer@3x.png) no-repeat;
+        background-size: cover} 
+    
+}

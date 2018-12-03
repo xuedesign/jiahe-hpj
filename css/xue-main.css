@@ -1,0 +1,392 @@
+@charset "utf-8";
+/*-- Created By
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+                 xuedesign studio 
+             https://www.xuedesign.tw/
+*
+*
+* @project    JIAHE Biochemical co., ltd
+* @Author     Elmo Woo <hello@xuedesign.tw>
+* @copyright  2018 xuedesign studio
+* @version    v2.0 - 201812
+*
+*=====================================
+* 0. Reset重置
+* 1. 通用設定
+* 2. 全站結構
+* 3. 頁面設定
+*       3.1 首頁
+*       3.2 關於嘉禾 
+*       3.3 醫美產品
+*       3.4 培訓課程
+*       3.5 影音專區
+*       3.6 錯誤頁
+* 4. 選單設定
+* 5. 按鈕設定
+* 6. 載入動畫
+* 7. 自訂scrollbar
+* 8. 返回頂端
+*=====================================
+**/
+
+
+/*
+=====================================
+Reset重置
+=====================================
+*/
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+
+/*
+=====================================
+通用設定
+=====================================
+*/
+html { font-size:62.5% }
+body{
+	margin: 0;
+	padding:0;
+	font-family: "Noto Sans TC","Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+	font-size: 1rem; /* 1rem=10px */
+	color: #735E14}
+/*a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}*/
+form{margin:0; padding:0}
+image{border:0}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*頁面反白設定*/
+::selection { background: #46390b; color: #fff}
+::-moz-selection { background: #46390b; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+
+/*完美置底*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom: 267px}
+.clearfix:after{content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
+
+/*
+=====================================
+全站結構
+=====================================
+*/
+#wrap{ display: block;  width: 100%}
+/*頁尾*/
+
+/*
+=====================================
+頁面設定
+=====================================
+*/
+/*首頁*/
+/*關於嘉禾*/ 
+/*醫美產品*/
+/*培訓課程*/
+/*影音專區*/
+/*錯誤頁*/
+
+
+
+/*
+=====================================
+選單設定
+=====================================
+*/
+
+
+/*
+=====================================
+按鈕設定
+=====================================
+*/
+.mybtn-xl,
+.mybtn-l,
+.mybtn-m,
+.mybtn-s{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 2.4px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 2px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-decoration: none}
+.mybtn-xl{ 
+    width: 180px;
+    padding: 15px 10px}
+.mybtn-l{ 
+    width: 160px;
+    padding: 15px 10px}
+.mybtn-m{ 
+    width: 120px;
+    padding: 8px 10px}
+.mybtn-s{
+    width: 90px;
+    padding: 5px 10px}
+/*.btn-white{
+    color: #fff;
+    border-color: #fff;
+    text-shadow: 0 0 15px #868686}
+.btn-blue{
+    color: #5e98d4;
+    border-color: #5e98d4}
+.btn-white:hover,
+.btn-blue:hover{
+    color: #fff;
+    border-color: #0d4d80;
+    background: #126db4;
+    -webkit-transition: all 0.5s ease 0s;
+    /* 變動類別;動畫時間;動畫加速屬性;延遲發生時間 
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;}*/
+.btn_green{
+    color: #fff;
+    background: #3ec7b1}
+.btn_green:hover{
+    color: #fff;
+    background: #2daf9a}
+.btn_more{ 
+    float: right;
+    line-height: .8em;
+    border-color: #95eadc;
+    color: #a599ac}
+.btn_more:hover,
+.btn_backto:hover{ 
+    background: #2daf9a;
+    color: #fff}
+.btn_backto{
+    float: right;
+    color: #fff;
+    background: #3ec7b1;
+    padding: 15px 10px;
+    margin-bottom: 50px}
+.btn_backlist{ display: none}
+
+@keyframes mousemove {
+    0%   { margin-top: 85px }
+    50%  { margin-top: 100px }
+    100% { margin-top: 84px }
+}
+@-webkit-keyframes mousemove {
+    0%   { margin-top: 85px }
+    50%  { margin-top: 100px }
+    100% { margin-top: 84px }
+}
+
+/*
+=====================================
+載入動畫
+=====================================
+*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 150px, 0);
+    transform: translate3d(0, 150px, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)}
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 150px, 0);
+    transform: translate3d(0, 150px, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)}
+}
+.fadeInUp,
+.fadeInUp-01{
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 900ms;
+  -moz-animation-duration: 900ms;
+  animation-duration: 900ms}
+.fadeInUp-01{
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(150px, 0, 0);
+    transform: translate3d(150px, 0, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)}
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(150px, 0, 0);
+    transform: translate3d(150px, 0, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)}
+}
+
+
+.fadeInRight,
+.fadeInRight-01{
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 900ms;
+    -moz-animation-duration: 900ms;
+    animation-duration: 900ms}
+.fadeInRight-01{
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms}
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-150px, 0, 0);
+    transform: translate3d(-150px, 0, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)}
+}
+
+.fadeInLeft{
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-delay: 900ms;
+    animation-delay: 900ms;
+    -webkit-animation-duration: 1200ms;
+    -moz-animation-duration: 1200ms;
+    animation-duration: 1200ms}
+.fadeInLeft-01{
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-duration: 900ms;
+    -moz-animation-duration: 900ms;
+    animation-duration: 900ms}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0}
+  to {
+    opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0}
+  to {
+    opacity: 1}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1500ms;
+    -moz-animation-duration: 1500ms;
+    animation-duration: 1500ms}
+
+/*
+=====================================
+自訂scrollbar
+=====================================
+*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0}
+::-webkit-scrollbar-thumb {
+  background: rgba(96, 25, 134, .5);
+  border: 0px none #fff;
+  border-radius: 60px}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 25, 134, 1)}
+::-webkit-scrollbar-track {
+  background: #ECECEC;
+  border: 0px none #fff;
+  border-radius: 0}
+
+/*
+=====================================
+返回頂端
+=====================================
+*/
+/*#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop.png) no-repeat left top}
+#toTopHover{
+	background:url(../images/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus { outline:none}*/
