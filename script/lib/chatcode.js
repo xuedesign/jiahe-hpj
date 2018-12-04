@@ -7,7 +7,7 @@
             call: "0928-334-522", // Call phone number
             company_logo_url: "//www.jiahe-hpj.com/images/logo.jpg", // URL of company logo (png, jpg, gif)
             greeting_message: "你好! 歡迎來到嘉禾生技\n需要協助嗎? 發訊息給我們吧", // Text of greeting message
-            button_color: "#b1901a", // Color of button #129BF4 #12D1C7
+            button_color: "#E4C273", // Color of button #129BF4 #12D1C7
             position: "right", // Position may be 'right' or 'left'
             order: "facebook,line,call,email" // Order of buttons
         };

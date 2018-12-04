@@ -8,7 +8,7 @@ loadjs('script/lib/wow.min.js', function() {
 loadjs('https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', function() {
     const observer = lozad();
     observer.observe();
-//});
+});
 
 
 //chatcode

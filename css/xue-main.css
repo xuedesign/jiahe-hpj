@@ -69,12 +69,13 @@ body{
 	padding:0;
 	font-family: "Noto Sans TC","Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
 	font-size: 1rem; /* 1rem=10px */
-	color: #735E14}
+	color: #735E14;
+    background: url(../images/bg_site.jpg) top center no-repeat}
 /*a:link {text-decoration:underline; color:#00adee}
 a:visited {text-decoration:underline; color:#8c8c8c}
 a:hover {text-decoration:none; color:#F50}*/
-form{margin:0; padding:0}
-image{border:0}
+form{ margin:0; padding:0}
+image{ border:0}
 .clean{ clear:both}
 .hidden{ display:none}
 
@@ -85,18 +86,19 @@ img::selection { background: transparent}
 img::-moz-selection { background: transparent}
 
 /*完美置底*/
-html, body, #wrap {height: 100%;}
-body > #wrap {height: auto; min-height: 100%;}
-#main_content{padding-bottom: 267px}
-.clearfix:after{content: ".";
+html, body, #wrap { height: 100%;}
+body > #wrap { height: auto; min-height: 100%;}
+#main_content{ padding-bottom: 267px}
+.clearfix:after{
+    content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden}
-.clearfix {display: inline-block}
+.clearfix { display: inline-block}
 /* Hides from IE-mac \*/
 * html .clearfix { height: 1%}
-.clearfix {display: block}
+.clearfix { display: block}
 /* End hide from IE-mac */
 
 /*
@@ -104,8 +106,23 @@ body > #wrap {height: auto; min-height: 100%;}
 全站結構
 =====================================
 */
-#wrap{ display: block;  width: 100%}
-/*頁尾*/
+#wrap{ display: block;  
+       width: 100%;
+       min-width: 1280px}
+footer {
+    display: block;
+    width: 100%;
+    min-width: 1280px;
+    min-height: 267px;
+    background: url(../images/bg_footer.png) repeat-x #4E3E04}
+header{
+    display: flex;
+    flex-wrap:wrap;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 35px}
+#hdr-left{ width: 27%}
+#hdr-right{ width: 72%}
 
 /*
 =====================================
@@ -113,10 +130,44 @@ body > #wrap {height: auto; min-height: 100%;}
 =====================================
 */
 /*首頁*/
-/*關於嘉禾*/ 
+#hdr-left h2 a{
+    display: block;
+    width: 242px;
+    height: 278px;
+    background: url(../images/bg_logo.png) no-repeat;
+    margin: 0 auto 35px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#social_link{
+    display: flex;
+    flex-wrap:wrap;
+    width: 98%;
+    padding: 27px 52px 0 50px;
+    list-style: none;
+    justify-content: space-between;}
+#social_link li a{
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url(../images/icon_social.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#social_link .icon_fb a:hover{ background-position: 0 -47px}
+#social_link .icon_line a{ background-position: -47px 0}
+#social_link .icon_line a:hover{ background-position: -47px -47px}
+#social_link .icon_ig a{ background-position: -94px 0}
+#social_link .icon_ig a:hover{ background-position: -94px -47px}
+#social_link .icon_mail a{ background-position: -141px 0}
+#social_link .icon_mail a:hover{ background-position: -141px -47px}
+
+
 /*醫美產品*/
 /*培訓課程*/
 /*影音專區*/
+/*關於嘉禾*/ 
+/*聯絡我們*/
 /*錯誤頁*/
 
 
@@ -126,7 +177,27 @@ body > #wrap {height: auto; min-height: 100%;}
 選單設定
 =====================================
 */
-
+nav{
+    width: 242px;
+    margin: 0 auto;
+    text-align: right;
+    list-style: none;}
+nav li a{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: #8A7A5E;
+    text-decoration: none;
+    line-height: 4.5rem}
+nav li a:hover{
+    display: block;
+    padding: 0 15px;
+    margin-left: 110px;
+    background: rgb(229,195,119);
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px}
 
 /*
 =====================================
@@ -352,11 +423,11 @@ body > #wrap {height: auto; min-height: 100%;}
   width: 0;
   height: 0}
 ::-webkit-scrollbar-thumb {
-  background: rgba(96, 25, 134, .5);
+  background: rgba(162,131,20, .5);
   border: 0px none #fff;
   border-radius: 60px}
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(96, 25, 134, 1)}
+  background: rgba(162,131,20, 1)}
 ::-webkit-scrollbar-track {
   background: #ECECEC;
   border: 0px none #fff;
