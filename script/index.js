@@ -1,3 +1,10 @@
+//圖片輪播
+loadjs('script/lib/jquery.flexslider.js', function() {
+  $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"});
+  });
+});
 
 //wow載入動畫
 loadjs('script/lib/wow.min.js', function() {
@@ -9,7 +16,6 @@ loadjs('https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', function() {
     const observer = lozad();
     observer.observe();
 });
-
 
 //chatcode
 loadjs('script/lib/chatcode.js');

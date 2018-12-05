@@ -109,12 +109,6 @@ body > #wrap { height: auto; min-height: 100%;}
 #wrap{ display: block;  
        width: 100%;
        min-width: 1280px}
-footer {
-    display: block;
-    width: 100%;
-    min-width: 1280px;
-    min-height: 267px;
-    background: url(../images/bg_footer.png) repeat-x #4E3E04}
 header{
     display: flex;
     flex-wrap:wrap;
@@ -123,6 +117,40 @@ header{
     margin-top: 35px}
 #hdr-left{ width: 27%}
 #hdr-right{ width: 72%}
+footer {
+    display: block;
+    width: 100%;
+    min-width: 1280px;
+    min-height: 267px;
+    background: url(../images/bg_footer.png) repeat-x #4E3E04}
+#foot-info{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto}
+.fitem-01{ padding: 45px 80px 0 0}
+.fitem-02{ padding:70px 90px 0 0}
+.fitem-03{ padding-top: 70px}
+#logo-down{
+    display: block;
+    width: 126px;
+    height: 191px;
+    background: url(../images/logo_down.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#foot-info h3{
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+    color: #EDDB99}
+#foot-info p,
+#foot-info li{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #ECE7C6}
+
 
 /*
 =====================================
@@ -145,7 +173,7 @@ header{
     width: 98%;
     padding: 27px 52px 0 50px;
     list-style: none;
-    justify-content: space-between;}
+    justify-content: space-between}
 #social_link li a{
     display: block;
     width: 47px;
@@ -162,6 +190,39 @@ header{
 #social_link .icon_mail a{ background-position: -141px 0}
 #social_link .icon_mail a:hover{ background-position: -141px -47px}
 
+#down-social{
+    display: flex;
+    flex-wrap:wrap;
+    width: 60%;
+    padding-bottom: 20px;
+    list-style: none;
+    justify-content: space-between;}
+#down-social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/icon_social-down.png) no-repeat;
+    opacity: .7;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#down-social .icon_line a{ background-position: -35px 0}
+#down-social .icon_ig a{ background-position: -70px 0}
+#down-social .icon_mail a{ background-position: -105px 0}
+#down-social .icon_fb a:hover,
+#down-social .icon_line a:hover,
+#down-social .icon_ig a:hover,
+#down-social .icon_mail a:hover{ opacity: 1}
+
+#hdr-right h3,#hdr-right p{
+    text-align: right;
+    padding: 0 8px 15px 0;
+    color: rgb(138, 122, 94)}
+#hdr-right h3{ 
+    font-size: 3rem; 
+    letter-spacing: 1px;
+    font-weight: 400}
+#hdr-right p{ font-size: 1.6rem}
 
 /*醫美產品*/
 /*培訓課程*/
@@ -187,7 +248,7 @@ nav li a{
     letter-spacing: 2px;
     color: #8A7A5E;
     text-decoration: none;
-    line-height: 4.5rem}
+    line-height: 3.5rem}
 nav li a:hover{
     display: block;
     padding: 0 15px;
