@@ -115,9 +115,16 @@ header{
     width: 1280px;
     margin: 0 auto;
     margin-top: 35px}
-#hdr-left{ width: 27%}
-#hdr-right{ width: 72%}
-footer {
+#hdr-left{ width: 27%; padding-bottom: 0}
+#hdr-right{ width: 72%; padding-bottom: 0}
+#mobile-nav{ display: none}
+#index-container{
+    display: block;
+    width: 1260px;/*1210px*/
+    min-height: 500px;
+    margin: 30px auto ;
+    background-color: #f1f1f1}
+footer{
     display: block;
     width: 100%;
     min-width: 1280px;
@@ -126,7 +133,8 @@ footer {
 #foot-info{
     display: flex;
     width: 1280px;
-    margin: 0 auto}
+    margin: 0 auto;
+    padding-bottom: 20px}
 .fitem-01{ padding: 45px 80px 0 0}
 .fitem-02{ padding:70px 90px 0 0}
 .fitem-03{ padding-top: 70px}
@@ -242,7 +250,7 @@ nav{
     width: 242px;
     margin: 0 auto;
     text-align: right;
-    list-style: none;}
+    list-style: none}
 nav li a{
     font-size: 2.2rem;
     letter-spacing: 2px;
