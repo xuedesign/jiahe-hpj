@@ -192,9 +192,17 @@ html[xmlns] .flexslider .slides {
     right: 10px}
 }
 
+@media (max-width:800px) {
+.flexslider{ border: none}    
+.flexslider .slides img {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0}
+}
+
 /*
 =====================================
-overlay-menu 
+行動版選單
 =====================================
 */
 /* Overlay style */
@@ -205,7 +213,7 @@ overlay-menu
 	top: 0;
 	left: 0;
     z-index: 9999;
-	background: rgba(96,25,134, .9)}
+	background: rgba(218,182,54,.9)}
 
 /* Overlay closing cross */
 .overlay .overlay-close{
@@ -252,21 +260,35 @@ overlay-menu
 	backface-visibility: hidden}
 
 .overlay ul li a {
-    font-family: "Noto Sans TC","Microsoft JhengHei","PingFangTC-Regular", Arial, Helvetica, sans-serif;
-	font-size: 3.5em;
+    display: block;
+    font-family: "Noto Sans TC","Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+	font-size: 3.5rem;
 	font-weight: 500;
+    line-height: 4.2rem;
     letter-spacing: 2px;
-	display: block;
-	color: #fff;
+	color: rgba(255, 255, 255, .8);
     text-decoration: none;
-	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
+	/*-webkit-transition: color 0.2s;
+	transition: color 0.2s;*/
     /*text-shadow: 0 0 10px #a0a0a0;*/
     padding-bottom: 10px}
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #f0f0f0}
+	background: rgb(145, 114, 40);
+    color: rgba(255, 255, 255, 1)}
+
+.sub-overlay li{
+        display: block;
+        float: left;
+        margin: 0 15px;
+        padding: 0}
+.overlay .sub-overlay a:hover{
+        color: rgb(145, 114, 40);
+        background: none}
+.overlay .sub-overlay a:focus{
+        color: rgba(255, 255, 255, .8);
+        background: none}
 
 /* Effects */
 .overlay-scale {
@@ -284,41 +306,6 @@ overlay-menu
 	transform: scale(1);	
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
 	transition: transform 0.4s, opacity 0.4s}
-
-/*Hover Effects*/
-.hvr-underline-from-left {
-        display: inline-block;
-        vertical-align: middle;
-        -webkit-transform: perspective(1px) translateZ(0);
-        transform: perspective(1px) translateZ(0);
-        box-shadow: 0 0 1px transparent;
-        position: relative;
-        overflow: hidden}
-    .hvr-underline-from-left:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        left: 0;
-        right: 100%;
-        bottom: 0;
-        background: rgb(247, 49, 178);
-        height: 4px;
-        -webkit-transition-property: right;
-        transition-property: right;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-timing-function: ease-out;
-        transition-timing-function: ease-out}
-    .hvr-underline-from-left:hover:before, 
-    .hvr-underline-from-left:focus:before, 
-    .hvr-underline-from-left:active:before {
-        right: 0}
-
-@media (max-width:1110px){
-.flex-direction-nav a { opacity: 0.8}
-.flex-direction-nav .flex-next{ right: 5px}
-.flex-direction-nav .flex-prev { left: 5px}   
-}
 
 @media screen and (max-height: 30.5em) {
 	.overlay nav {

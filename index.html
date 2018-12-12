@@ -41,18 +41,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="main_content" class="clearfix">
         <div id="mobile-nav">
             <h2><a href="index.html" title="返回首頁">嘉禾生技,專業醫學美容管理團隊</a></h2>
-
+            <button id="trigger-overlay" type="button"><i class="far fa-bars"></i></button>
+            <div class="clean"></div>
         </div>
         <header>
             <div id="hdr-left">
                 <h2><a href="index.html" title="返回首頁">嘉禾生技,專業醫學美容管理團隊</a></h2>
-                <nav>
+                <nav id="main-nav">
                     <ul>
-                        <li><a href="prosucts.html">醫美產品</a></li>
-                        <li><a href="lesson.html">培訓課程</a></li>
-                        <li><a href="video.html">影音專區</a></li>
-                        <li><a href="about.html">關於嘉禾</a></li>
-                        <li><a href="contact.html">線上諮詢</a></li>
+                        <li><a class="hvr-round-corners" href="prosucts.html">醫美產品</a></li>
+                        <li><a class="hvr-round-corners" href="lesson.html">培訓課程</a></li>
+                        <li><a class="hvr-round-corners" href="video.html">影音專區</a></li>
+                        <li><a class="hvr-round-corners" href="about.html">關於嘉禾</a></li>
+                        <li><a class="hvr-round-corners" href="contact.html">線上諮詢</a></li>
                     </ul>
                 </nav>
                 <ul id="social_link">
@@ -113,7 +114,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </ul>    
 </footer>
 
-
+<!--mobile menu-->
+<div class="overlay overlay-scale">
+    <button type="button" class="overlay-close"><i class="fas fa-times-square"></i></button>
+    <nav>
+        <ul>
+            <li><a class="hvr-round-corners" href="prosucts.html">醫美產品</a></li>
+            <li><a class="hvr-round-corners" href="lesson.html">培訓課程</a></li>
+            <li><a class="hvr-round-corners" href="video.html">影音專區</a></li>
+            <li><a class="hvr-round-corners" href="about.html">關於嘉禾</a></li>
+            <li><a class="hvr-round-corners" href="contact.html">線上諮詢</a></li>
+            <li><a class="hvr-round-corners" href="index.html">返回首頁</a></li>
+            <li>
+                <ul class="sub-overlay">
+                    <li><a href="https://www.facebook.com/jiahe2009/" title="Facebook" rel="external"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://line.me/R/ti/p/%40fij8467d" title="Line" rel="external"><i class="fab fa-line"></i></a></li>
+                    <li><a href="https://www.instagram.com/jiahe.hpj/" title="Instagram" rel="external"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div> 
 
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/muicss/loadjs/3.5.4/dist/loadjs.min.js"></script>

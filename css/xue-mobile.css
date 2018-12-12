@@ -50,9 +50,9 @@
         background: url(../images/bg_logo@2x.png) no-repeat;  
         background-size: 190px 218px;
         margin: 0 auto 20px auto} 
-    nav{ width: 190px}
-    nav li a{ line-height: 3.3rem}
-    nav li a:hover{ margin-left: 55px}
+    #main-nav{ width: 190px}
+    #main-nav li a{ line-height: 3.3rem}
+    #main-nav li a:hover{ margin-left: 55px}
     #social_link{ width: 105%}
     #social_link li a{
         width: 35px;
@@ -99,9 +99,9 @@
     footer{
         width: 100%;
         min-width: 750px}
-    header{ margin-top: 0; padding-top: 135px}
+    header{ margin-top: 0; padding-top: 120px}
     #hdr-left{ display: none}
-    #hdr-right{ width: 99%; margin: 0 auto}
+    #hdr-right{ width: 100%; margin: 0 auto}
     #hdr-right h3,
     #hdr-right p{ display: none}
     #mobile-nav{ 
@@ -119,13 +119,32 @@
         box-shadow: 0 1px 5px #c4c4c4}
     #mobile-nav h2 a{
         display: block;
+        float: left;
         width: 270px;
         height: 90px;
         background: url(../images/bg_logo@RWD.png) no-repeat;
         background-size: 270px 90px;
-text-indent: 100%;
+        text-indent: 100%;
         white-space: nowrap;
         overflow: hidden}
+    #trigger-overlay{
+        display: block;
+        float: right;
+        margin-top: 18px;
+        width: 50px;
+        height: 50px;
+        font-size: 2em;
+        color: #fff;
+        background: rgba(218,182,54,.7);
+        border: none;
+        cursor: pointer;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px}
+    #trigger-overlay:hover{
+        background: rgba(218,182,54,1);
+        color: #fff;
+        transition: .5s}
     .fitem-01{ padding: 45px 50px 0 15px}
     .fitem-02{ padding:70px 0 0 0}
     .fitem-03{ padding: 70px 10px 0 30px}
