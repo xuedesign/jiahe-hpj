@@ -157,7 +157,18 @@
 =====================================
 */
 @media (max-width: 600px) { /*573*/
-
+    #wrap,
+    footer{
+        width: 100%;
+        min-width: 573px}
+    #mobile-nav{ min-width: 573px}
+    #foot-info{ flex-wrap: wrap}
+    .fitem-01{ width: 30%; padding: 45px 0 0 20px}
+    .fitem-02{ width: 69%; padding: 70px 0 0 20px}
+    .fitem-03{ width: 90%; padding: 20px 0 0 195px}
+    .fitem-03 h3{ padding-left: 95px}
+    #down-social{ width: 85%;  padding-left: 95px}
+    
 }
 
 /*
@@ -166,7 +177,18 @@
 =====================================
 */
 @media (max-width: 420px) { /*360*/
-   
+    #wrap,
+    footer{
+        width: 100%;
+        min-width: 360px}
+    #mobile-nav{ min-width: 360px}
+    #logo-down{
+        width: 90px;
+        height: 136px;
+        background-size: 90px 136px}
+    .fitem-01{ width: 30%; padding: 45px 0 0 20px}
+    .fitem-02{ width: 69%; padding: 55px 0 0 20px}
+    .fitem-03{ width: 95%; padding: 20px 0 0 35px}
 }
 
 /*
