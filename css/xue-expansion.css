@@ -183,7 +183,7 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default}
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1110px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px}
@@ -310,7 +310,14 @@ html[xmlns] .flexslider .slides {
 @media screen and (max-height: 30.5em) {
 	.overlay nav {
 		height: 70%;
-		font-size: 34px}
+		font-size: 30px}
 	.overlay ul li {
-		min-height: 34px}
+		min-height: 30px}
+}
+@media (max-width: 321px) {
+.overlay ul li{ min-height: 60px}
+.overlay ul li a {
+    font-size: 3rem;
+	font-weight: 500;
+    line-height: 3.5rem}
 }

@@ -78,6 +78,7 @@ form{ margin:0; padding:0}
 image{ border:0}
 .clean{ clear:both}
 .hidden{ display:none}
+h1{display: none}
 
 /*頁面反白設定*/
 ::selection { background: #46390b; color: #fff}
@@ -109,18 +110,28 @@ body > #wrap { height: auto; min-height: 100%;}
 #wrap{ display: block;  
        width: 100%;
        min-width: 1280px}
-header{
+header,
+#page-main{
     display: flex;
     flex-wrap:wrap;
     width: 1280px;
     margin: 0 auto;
     margin-top: 35px}
-#hdr-left{ width: 27%; padding-bottom: 0}
-#hdr-right{ width: 72%; padding-bottom: 0}
+#hdr-left,
+#page-left{ width: 27%; padding-bottom: 0}
+#hdr-right,
+#page-right{ width: 72%; padding-bottom: 0}
+
 #mobile-nav{ display: none}
-#index-container{
+#container-index{
     display: block;
     width: 1260px;/*1210px*/
+    min-height: 500px;
+    margin: 30px auto ;
+    background-color: #f1f1f1}
+#container-page{
+    display: block;
+    width: 100%;
     min-height: 500px;
     margin: 30px auto ;
     background-color: #f1f1f1}
@@ -166,7 +177,8 @@ footer{
 =====================================
 */
 /*首頁*/
-#hdr-left h2 a{
+#hdr-left h2 a,
+#page-left h2 a{
     display: block;
     width: 242px;
     height: 278px;
@@ -222,15 +234,24 @@ footer{
 #down-social .icon_ig a:hover,
 #down-social .icon_mail a:hover{ opacity: 1}
 
-#hdr-right h3,#hdr-right p{
+#hdr-right h3,
+#hdr-right p,
+#page-right h3,
+#page-right p{
     text-align: right;
     padding: 0 8px 15px 0;
     color: rgb(138, 122, 94)}
-#hdr-right h3{ 
+#hdr-right h3,
+#page-right h3{ 
     font-size: 3rem; 
     letter-spacing: 1px;
     font-weight: 400}
-#hdr-right p{ font-size: 1.6rem}
+#hdr-right p,
+#page-right p{ font-size: 1.6rem}
+#page-right .page-title{ 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;}
 
 /*醫美產品*/
 /*培訓課程*/

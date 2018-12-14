@@ -42,9 +42,11 @@
         width: 100%;
         min-width: 1000px} 
     header,
+    #page-main,
     #foot-info{ width: 100%} 
     #index-container{ width: 97%}
-    #hdr-left h2 a{
+    #hdr-left h2 a,
+    #page-left h2 a{
         width: 190px;
         height: 218px;
         background: url(../images/bg_logo@2x.png) no-repeat;  
@@ -99,11 +101,16 @@
     footer{
         width: 100%;
         min-width: 750px}
-    header{ margin-top: 0; padding-top: 120px}
-    #hdr-left{ display: none}
-    #hdr-right{ width: 100%; margin: 0 auto}
+    header,
+    #page-main{ margin-top: 0; padding-top: 120px}
+    #hdr-left,
+    #page-left{ display: none}
+    #hdr-right,
+    #page-right{ width: 100%; margin: 0 auto}
     #hdr-right h3,
-    #hdr-right p{ display: none}
+    #hdr-right p,
+    #page-right h3,
+    #page-right p{ display: none}
     #mobile-nav{ 
         display: block;
         position: fixed;
@@ -135,6 +142,7 @@
         height: 50px;
         font-size: 2em;
         color: #fff;
+        text-align: center;
         background: rgba(218,182,54,.7);
         border: none;
         cursor: pointer;
@@ -166,8 +174,6 @@
     .fitem-01{ width: 30%; padding: 45px 0 0 20px}
     .fitem-02{ width: 69%; padding: 70px 0 0 20px}
     .fitem-03{ width: 90%; padding: 20px 0 0 195px}
-    .fitem-03 h3{ padding-left: 95px}
-    #down-social{ width: 85%;  padding-left: 95px}
     
 }
 
@@ -189,6 +195,8 @@
     .fitem-01{ width: 30%; padding: 45px 0 0 20px}
     .fitem-02{ width: 69%; padding: 55px 0 0 20px}
     .fitem-03{ width: 95%; padding: 20px 0 0 35px}
+    .fitem-03 h3{ padding-left: 105px}
+    #down-social{ width: 85%;  padding-left: 105px}
 }
 
 /*
@@ -197,7 +205,34 @@
 =====================================
 */
 @media (max-width: 321px) { /*300*/
-
+    #wrap,
+    footer{
+        width: 100%;
+        min-width: 300px}
+    header,
+    #page-main{ padding-top: 100px}
+    #mobile-nav{ 
+        min-width: 300px;
+        height: 100px}
+    #mobile-nav h2 a{
+        width: 200px;
+        height: 67px;
+        background-size: 200px 67px}
+    #trigger-overlay{ margin-top: 8px}
+    #logo-down{
+        width: 90px;
+        height: 136px;
+        background-size: 90px 136px;
+        margin: 0 auto}
+    .fitem-01,
+    .fitem-02,
+    .fitem-03{ width: 100%; padding: 15px 0 0}
+    .fitem-01{margin-top: 45px}
+    .fitem-02,
+    .fitem-03{ padding-left:30px}
+    .fitem-03 h3{ padding-left: 0}
+    #down-social{ width: 70%;  padding-left: 0}
+    #foot-info .fitem-03 p{font-size: 1.3rem}
 }
 
 
