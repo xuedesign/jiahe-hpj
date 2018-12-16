@@ -4,7 +4,7 @@ loadjs('script/lib/theia-sticky-sidebar.min.js', function() {
   jQuery(document).ready(function() {
     jQuery('#page-left').theiaStickySidebar({
       // Settings
-      additionalMarginTop: 30
+      additionalMarginTop: 35
     });
   });
 });

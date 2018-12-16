@@ -44,7 +44,8 @@
     header,
     #page-main,
     #foot-info{ width: 100%} 
-    #index-container{ width: 97%}
+    #container-index,
+    #container-page{ width: 97%}
     #hdr-left h2 a,
     #page-left h2 a{
         width: 190px;
@@ -153,6 +154,16 @@
         background: rgba(218,182,54,1);
         color: #fff;
         transition: .5s}
+    #trigger-overlay i{
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto}
+    
+    #page-right .page-title{ 
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0}
     .fitem-01{ padding: 45px 50px 0 15px}
     .fitem-02{ padding:70px 0 0 0}
     .fitem-03{ padding: 70px 10px 0 30px}

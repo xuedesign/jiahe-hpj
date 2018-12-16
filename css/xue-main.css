@@ -249,9 +249,11 @@ footer{
 #hdr-right p,
 #page-right p{ font-size: 1.6rem}
 #page-right .page-title{ 
+    width: 100%;
+    /*height: auto;*/
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;}
+    border-radius: 10px}
 
 /*醫美產品*/
 /*培訓課程*/
