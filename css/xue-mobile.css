@@ -141,24 +141,22 @@
         margin-top: 18px;
         width: 50px;
         height: 50px;
-        font-size: 2em;
-        color: #fff;
-        text-align: center;
-        background: rgba(218,182,54,.7);
+        /*font-size: 2em;*/
+        /*color: #fff;
+        text-align: center;*/
+        background: url(../images/icon_Menu.svg) top center no-repeat;
+        background-size: 45px 45px;
+        opacity: .7;
         border: none;
         cursor: pointer;
         -webkit-border-radius: 100px;
         -moz-border-radius: 100px;
         border-radius: 100px}
     #trigger-overlay:hover{
-        background: rgba(218,182,54,1);
-        color: #fff;
+        /*background: rgba(218,182,54,1);
+        color: #fff;*/
+        opacity: 1;
         transition: .5s}
-    #trigger-overlay i{
-        font-size: 2em;
-        color: #fff;
-        text-align: center;
-        margin: 0 auto}
     
     #page-right .page-title{ 
         -webkit-border-radius: 0;
