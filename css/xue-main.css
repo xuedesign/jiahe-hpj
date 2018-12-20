@@ -133,6 +133,7 @@ header,
     display: block;
     width: 1260px;/*1210px*/
     margin: 30px auto;
+    padding-top: 60px;
     /*min-height: 500px;
     background-color: #f1f1f1*/}
 #container-page{
@@ -215,7 +216,35 @@ footer{
 =====================================
 */
 /*首頁*/
-
+.item-index{
+    display: block;
+    width: 1030px;
+    margin: 0 auto 80px auto}
+.item-index h3{
+    display: block;
+    width: 820px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding:0 80px 30px;
+    background: url(../images/bg_title-line.png) bottom center no-repeat;
+    background-size: 820px 28px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    letter-spacing: 10px;
+    text-align: center;
+    color: rgb(115, 94, 20)}
+.item-index p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    color: rgb(115, 94, 20)}
+.item-info{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center}
 
 /*醫美產品*/
 /*培訓課程*/
