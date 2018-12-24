@@ -37,7 +37,11 @@
 *       2.1 區塊設定
 *       2.2 結構文字設定
 * 3. 頁面設定
-*       3.1 首頁
+*       3.1 關於嘉禾 
+*       3.2 醫美產品
+*       3.3 培訓課程
+*       3.4 影音專區
+*       3.5 錯誤頁
 * 4. 選單設定
 *       4.1 網站主選單
 *       4.2 上方社群連結
@@ -85,7 +89,7 @@ img::-moz-selection { background: transparent}
 /*完美置底*/
 html, body, #wrap { height: 100%;}
 body > #wrap { height: auto; min-height: 100%;}
-#main_content{ /*padding-bottom: 267px*/}
+#main_content{ padding-bottom: 267px}
 .clearfix:after{
     content: ".";
     display: block;
@@ -206,139 +210,14 @@ footer{
 頁面設定
 =====================================
 */
-/*首頁*/
-.item-index{
-    display: block;
-    width: 1030px;
-    margin: 0 auto 80px auto}
-.item-index h3{
-    display: block;
-    width: 820px;
-    min-height: 60px;
-    margin: 0 auto;
-    padding:0 80px 30px;
-    background: url(../images/bg_title-line.png) bottom center no-repeat;
-    background-size: 820px 28px;
-    font-size: 2.2rem;
-    font-weight: bold;
-    line-height: 2.8rem;
-    letter-spacing: 10px;
-    text-align: center;
-    color: rgb(115, 94, 20)}
-.item-index p{
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 2.4rem;
-    color: rgb(115, 94, 20)}
-.item-info{
-    display: block;
-    width: 600px;
-    margin: 0 auto;
-    padding-top: 10px;
-    text-align: center}
-#box_lesson-info{
-    display: block;
-    width: 716px;
-    margin: 25px auto 55px}
-#box_lesson-info img{
-    display: block;
-    float: left;
-    width: 460px;
-    height: auto;
-    margin-right: 50px}
-.lesson-list{
-    display: block;
-    float: right;
-    width: 206px}
-.lesson-list ul{
-    display: block;
-    margin: 0;
-    padding: 0 0 20px 0}
-.lesson-list li{
-    font-size: 1.6rem;
-    line-height: 3.5rem;
-    letter-spacing: 1.6px;
-    color: #735e14}
-.lesson-list i{
-    font-size: 1.3rem;
-    padding-right: 15px;
-    color: rgb(237, 219, 153)}
-.lesson-list .mybtn-l{ margin: 0 auto}
+/*醫美產品*/
+/*培訓課程*/
+/*影音專區*/
+/*關於嘉禾*/ 
+/*聯絡我們*/
+/*錯誤頁*/
 
-.item-products{
-    display: block;
-    position: relative;
-    width: 1030px;
-    min-height: 426px;
-    margin: 20px auto 55px}
-.item-products:nth-child(4){ margin-bottom: 0}
-.item-draw-01,
-.item-draw-02,
-.item-draw-03,
-.item-draw-04{ display: block; height: auto}
-.item-draw-01{ float: left; width: 575px}
-.item-draw-02{ float: right; width: 554px}
-.item-draw-03{ float: left; width: 547px}
-.item-draw-04{ float: right; width: 589px}
-.item-subinfo{
-    display: block;
-    position: absolute}
-.subinfo-01{
-    top:0;
-    right: 0;
-    width: 485px;
-    padding: 90px 0 0 80px;
-    background: url(../images/icon_time-06.png) 0 72px no-repeat;
-    background-size: 62px 85px}
-.subinfo-02{
-    top:0;
-    left: 0;
-    width: 476px;
-    padding: 80px 0 0 80px;
-    background: url(../images/icon_time-08.png) 0 60px no-repeat;
-    background-size: 63px 88px}
-.subinfo-03{
-    top:0;
-    right: 0;
-    width: 483px;
-    padding: 80px 0 0 80px;
-    background: url(../images/icon_time-19.png) 0 62px no-repeat;
-    background-size: 64px 85px}
-.subinfo-04{
-    top:0;
-    left: 0;
-    width: 441px;
-    padding: 80px 0 0 90px;
-    background: url(../images/icon_time-20.png) 0 62px no-repeat;
-    background-size: 74px 85px}
-.item-title {
-	font-size: 1.9rem;
-    font-weight: bold;
-    line-height: 2.8rem;
-    /*letter-spacing: 1px;*/
-    color: rgb(227, 191, 89);
-    padding-bottom: 30px}
-.item-subinfo p{ padding-bottom: 40px}
-#contact-index{
-    display: block;
-    width: 820px;
-    margin: 0 auto;
-    padding-top: 30px}
-.contact-left,
-.contact-right{
-    display: block;
-    width: 50%}
-.contact-left{ float: left}
-.contact-right{ float: right}
-.contact-left ul{
-    display: block;
-    padding: 30px 20px 0 80px}
-.contact-left li{
-    font-size: 1.5rem;
-    line-height: 2.8rem;
-    list-style: none;
-    margin: 15px 0;
-    border-bottom: 1px dotted #cbc6c0}
+
 
 /*
 =====================================
