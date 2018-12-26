@@ -45,7 +45,8 @@
     #page-main,
     #foot-info{ width: 100%} 
     #container-index,
-    #container-page{ width: 97%}
+    #container-page,
+    #container-main{ width: 97%}
     #hdr-left h2 a,
     #page-left h2 a{
         width: 190px;

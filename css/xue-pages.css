@@ -89,7 +89,7 @@ img::-moz-selection { background: transparent}
 /*完美置底*/
 html, body, #wrap { height: 100%;}
 body > #wrap { height: auto; min-height: 100%;}
-#main_content{ padding-bottom: 267px}
+#main_content{ padding-bottom: 100px}/*267px*/
 .clearfix:after{
     content: ".";
     display: block;
@@ -135,8 +135,12 @@ header,
     display: block;
     width: 100%;
     margin: 30px auto ;
-    min-height: 500px;
-    background-color: #f1f1f1}
+    /*min-height: 500px;
+    background-color: #f1f1f1*/}
+#container-main{
+    display: block;
+    width: 100%;
+    padding: 30px 30px 0}
 
 footer{
     display: block;
@@ -205,19 +209,91 @@ footer{
     line-height: 2.5rem;
     color: #ECE7C6}
 
+#bar_cookie{
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 1.3rem;
+    line-height: 2.4rem}
+#bar_cookie i{
+    font-size: 1.1rem;
+    margin-right: 8px;
+    color: rgb(159, 134, 47)}
+#bar_cookie a{
+    color: #735E14;
+    text-decoration: underline}
+#bar_cookie a:hover{
+    color: #f50;
+    text-decoration: none}
+
 /*
 =====================================
 頁面設定
 =====================================
 */
+/*關於嘉禾*/ 
+#container-main h4{
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    letter-spacing: 1px;
+    text-indent: 38px;
+    padding-bottom: 8px;
+    background: url(../images/icon_tpoint.svg) 0 5px no-repeat;
+    background-size: 30px 20px}
+#container-main p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: justify;
+    padding-left: 38px;}
+#container-main scetion{ 
+    display: block;
+    width: 100%;
+    padding-bottom: 40px}
+
+/*影音專區*/
+#playlist{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%}
+#playlist li{
+    display: block;
+    position: relative;
+    width: 27%;
+    margin: 0 3%}
+#playlist img{
+    width: auto;
+    height: 200px}
+#playlist h5{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center}
+#playlist a{
+    display: block;
+    position: absolute;
+    top:25px;
+    left: 90px;
+    font-size: 10rem;
+    color: rgba(255, 255, 255, .8)}
+#playlist a:hover{ color: rgba(255, 255, 255, 1)}
+
+/*線上諮詢*/
+#box_contact{
+    display: block;
+    width: 100%;
+    padding-left: 38px}
+#box_contact li{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    list-style: none;
+    margin: 15px 0;
+    border-bottom: 1px dotted #cbc6c0}
+
 /*醫美產品*/
 /*培訓課程*/
-/*影音專區*/
-/*關於嘉禾*/ 
-/*聯絡我們*/
 /*錯誤頁*/
-
-
 
 /*
 =====================================
@@ -364,7 +440,7 @@ footer{
 .btn_facebook{
     height: 36px;
     border: 0}
-.btn_line{ margin: 0 10px 0 20px}
+.btn_line{ margin: 0 10px 0 0}
 
 /*
 =====================================
