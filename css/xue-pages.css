@@ -128,15 +128,11 @@ header,
     display: block;
     width: 1260px;/*1210px*/
     margin: 30px auto;
-    padding-top: 60px;
-    /*min-height: 500px;
-    background-color: #f1f1f1*/}
+    padding-top: 60px}
 #container-page{
     display: block;
     width: 100%;
-    margin: 30px auto ;
-    /*min-height: 500px;
-    background-color: #f1f1f1*/}
+    margin: 30px auto}
 #container-main{
     display: block;
     width: 100%;
@@ -261,8 +257,9 @@ footer{
     color: #f50;
     text-decoration: none}
 
-/*影音專區*/
-#playlist{
+/*影音專區+醫美產品*/
+#playlist,
+#products-list{
     display: flex;
     flex-wrap: wrap;
     width: 100%}
@@ -271,10 +268,20 @@ footer{
     position: relative;
     width: 29%;
     margin: 0 2% 30px}
-#playlist img{
+#products-list li{
+    display: block;
+    width: 29%;
+    margin: 0 2% 30px;
+    overflow:hidden}
+#playlist img,
+#products-list img{
     width: 100%;
     height: auto}
-#playlist h5{
+#products-list img{
+    transform:scale(1,1);transition: all .5s ease-out}
+#products-list img:hover{transform:scale(1.1,1.1)}
+#playlist h5,
+#products-list h5{
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 2rem;
@@ -288,6 +295,15 @@ footer{
     font-size: 10rem;
     color: rgba(255, 255, 255, .8)}
 #playlist a:hover{ color: rgba(255, 255, 255, 1)}
+
+/*圖片滑過放大效果
+<div class="pic">
+<img src="http://photosku.com/images_file/small_images/s000_496.jpg" /></div>
+
+.pic{width:500px; height:350px;overflow:hidden;}
+.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+.pic img:hover{transform:scale(1.2,1.2);}*/
+
 
 /*線上諮詢*/
 #box_contact{
@@ -338,7 +354,7 @@ footer{
     float: left;
     width: 180px;
     height: 250px;
-    background: #e1e1e1}
+    /*background: #e1e1e1*/}
 .staff-info{
     display: block;
     float: right;
@@ -369,9 +385,6 @@ footer{
     padding-right: 8px;
     color: rgb(237, 219, 153)}
 .staff-info span{ padding-left: 21px}
-
-
-/*醫美產品*/
 
 /*錯誤頁*/
 
