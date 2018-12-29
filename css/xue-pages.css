@@ -38,9 +38,9 @@
 *       2.2 結構文字設定
 * 3. 頁面設定
 *       3.1 關於嘉禾 
-*       3.2 醫美產品
-*       3.3 培訓課程
-*       3.4 影音專區
+*       3.2 醫美產品+影音專區
+*       3.3 線上諮詢
+*       3.4 培訓課程
 *       3.5 錯誤頁
 * 4. 選單設定
 *       4.1 網站主選單
@@ -228,14 +228,19 @@ footer{
 頁面設定
 =====================================
 */
-/*關於嘉禾*/ 
+/*關於嘉禾*/
+.mylogo{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto}
 #container-main h4{
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.7rem;
     letter-spacing: 1px;
-    text-indent: 38px;
-    padding-bottom: 8px;
+    /*text-indent: 38px;*/
+    padding: 0 0 25px 38px;
     background: url(../images/icon_tpoint.svg) 0 5px no-repeat;
     background-size: 30px 20px}
 #container-main p{
@@ -295,14 +300,6 @@ footer{
     font-size: 10rem;
     color: rgba(255, 255, 255, .8)}
 #playlist a:hover{ color: rgba(255, 255, 255, 1)}
-
-/*圖片滑過放大效果
-<div class="pic">
-<img src="http://photosku.com/images_file/small_images/s000_496.jpg" /></div>
-
-.pic{width:500px; height:350px;overflow:hidden;}
-.pic img{transform:scale(1,1);transition: all 1s ease-out;}
-.pic img:hover{transform:scale(1.2,1.2);}*/
 
 
 /*線上諮詢*/
