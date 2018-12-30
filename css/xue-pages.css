@@ -301,13 +301,60 @@ footer{
     color: rgba(255, 255, 255, .8)}
 #playlist a:hover{ color: rgba(255, 255, 255, 1)}
 
+.products-photo{
+    display: block;
+    float: left;
+    width: 45%;
+    height: auto}
+.products-info{
+    display: block;
+    float: right;
+    width: 55%;
+    padding-left: 20px}
+.products-info li{
+    background: url(../images/icon_listpot.svg) no-repeat;
+    background-size: 10px 10px;
+    background-position: 0 10px;
+    padding: 0 0 10px 21px}
+.products-info img{vertical-align: middle}
+
+#customized-list{
+    display: block;
+    width: 80%;
+    margin: 0 auto}
+#customized-list h5{
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 3.5rem}
+.table_material{
+    width: 100%;
+    margin-bottom: 15px}
+.table_material th{
+    padding: 8px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #c1b27f;
+    border-right: 1px solid #B890DA}
+.table_material td{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px #fff;
+    padding: 8px;
+    border: 1px solid #d4d4d4}
+.table_material tr:nth-child(odd){
+    background-color: #e1e1e1}
 
 /*線上諮詢*/
 #box_contact{
     display: block;
     width: 100%;
     padding-left: 38px}
-#box_contact li{
+#box_contact li,
+.products-info li{
     font-size: 1.6rem;
     line-height: 2.4rem;
     list-style: none;
@@ -332,8 +379,9 @@ footer{
     list-style: none;
     margin: 15px 35px;
     border-bottom: 1px dotted #cbc6c0}
-#lesson-info i{
-    font-size: 1.3rem;
+#lesson-info i,
+#box_contact i{
+    font-size: 1rem;
     padding-right: 15px;
     color: rgb(237, 219, 153)}
 
@@ -378,7 +426,7 @@ footer{
     line-height: 2.5rem;
     list-style: none}
 .staff-info i{
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-right: 8px;
     color: rgb(237, 219, 153)}
 .staff-info span{ padding-left: 21px}
@@ -515,17 +563,17 @@ footer{
     border-color: #dab633;
     color: #735E14}
 .btn_more:hover,
-.btn_backto:hover{ 
+a.btn_backto:hover{ 
     background: #735E14;
     color: #fff;
     transition: .5s}
-.btn_backto{
+.btn_backto,
+.btn_backto:visited{
     float: right;
+    text-decoration: none;
     color: #fff;
-    background: #3ec7b1;
-    padding: 15px 10px;
-    margin-bottom: 50px}
-.btn_backlist{ display: none}
+    background: #c1b27f}
+/*.btn_backlist{ display: none}*/
 .btn_line,
 .btn_facebook{
     height: 36px;
@@ -550,8 +598,8 @@ footer{
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 150px, 0);
-    transform: translate3d(0, 150px, 0)}
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0)}
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -561,8 +609,8 @@ footer{
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 150px, 0);
-    transform: translate3d(0, 150px, 0)}
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0)}
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -572,10 +620,10 @@ footer{
 .fadeInUp-01{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  -webkit-animation-duration: 900ms;
-  -moz-animation-duration: 900ms;
-  animation-duration: 900ms}
-.fadeInUp-01{
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  animation-duration: 1000ms}
+/*.fadeInUp-01{
   -webkit-animation-delay: 500ms;
   animation-delay: 500ms}
 
@@ -659,7 +707,7 @@ footer{
     animation-name: fadeIn;
     -webkit-animation-duration: 1500ms;
     -moz-animation-duration: 1500ms;
-    animation-duration: 1500ms}
+    animation-duration: 1500ms}*/
 
 /*
 =====================================
