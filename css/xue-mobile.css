@@ -43,10 +43,12 @@
         min-width: 1000px} 
     header,
     #page-main,
-    #foot-info{ width: 100%} 
+    #foot-info,
+    .item-products{ width: 100%} 
     #container-index,
     #container-page,
-    #container-main{ width: 97%}
+    #container-main,
+    .item-index{ width: 97%}
     #hdr-left h2 a,
     #page-left h2 a{
         width: 190px;
@@ -104,6 +106,11 @@
     #down-social .icon_mail a{
         background:url(../images/icon_social-down-mail@2x.png) no-repeat;
         background-size: 35px 35px}
+    
+    .item-draw-01{ float: left; width: 530px}
+    .item-draw-02{ float: right; width: 480px}
+    .item-draw-03{ float: left; width: 500px}
+    .item-draw-04{ float: right; width: 500px}
 }
 
 /*
@@ -112,6 +119,7 @@
 =====================================
 */
 @media (max-width:800px) { /*750*/
+    body{ background-attachment: fixed}
     #wrap,
     footer{
         width: 100%;
@@ -180,6 +188,41 @@
     .fitem-02{ padding:70px 0 0 0}
     .fitem-03{ padding: 70px 10px 0 30px}
     
+    .item-index{ margin: 0 auto 40px auto}
+    .item-index h3{ 
+        width: 100%;
+        background-size: 720px 25px}
+    .item-products{ margin: 20px auto 0 auto}
+    .item-draw-01,
+    .item-draw-02,
+    .item-draw-03,
+    .item-draw-04{ 
+        float: none; 
+        width: 80%;
+        height: auto;
+        margin: 0 auto}
+    .item-subinfo{ 
+        width: 80%; 
+        position: static;
+        margin: 0 auto 50px}
+    /*.item-subinfo:nth-child(4){ margin-bottom: 30px}*/
+    .subinfo-01{
+        padding: 20px 0 0 80px;
+        background-position: 0 0}
+    .subinfo-02{
+        padding: 65px 0 0 80px;
+        background-position: 0 10px}
+    .subinfo-03{
+        padding: 62px 0 0 80px;
+        background-position: 0 10px}
+    .subinfo-04{
+        padding: 65px 0 0 80px;
+        background-position: 0 10px}
+    .item-title { padding-bottom: 10px}
+    #contact-index{ width: 99%}
+    .contact-left{ width: 45%}
+    .contact-right{ width: 55%}
+    .contact-left ul{ padding: 30px 15px 0 20px}
 }
 
 /*
@@ -198,6 +241,32 @@
     .fitem-02{ width: 69%; padding: 70px 0 0 20px}
     .fitem-03{ width: 90%; padding: 20px 0 0 195px}
     
+    .item-index h3{ 
+        letter-spacing: 3px;
+        background-size: 550px 19px}
+    .item-info,
+    #box_lesson-info{ width: 100%}
+    #box_lesson-info img{
+        float: none;
+        margin: 0 auto}
+    .lesson-list{
+        float: none;
+        width: 38%;
+        margin: 15px auto 0 auto}
+    .item-title {
+        font-size: 1.75rem;
+        line-height: 2.5rem}
+    .contact-left,
+    .contact-right{ 
+        float: none;
+        margin: 0 auto}
+    .contact-left{ width: 50%}
+    .contact-right{ width: 95%}
+    .contact-left ul{ padding: 0 0 20px 0}
+    .contact-right iframe{ 
+        display: block;
+        width: 360px;
+        margin: 0 auto}
 }
 
 /*
@@ -220,6 +289,29 @@
     .fitem-03{ width: 95%; padding: 20px 0 0 35px}
     .fitem-03 h3{ padding-left: 105px}
     #down-social{ width: 85%;  padding-left: 105px}
+    
+    #container-index{ padding-top: 20px}
+    .item-index h3{ 
+        letter-spacing: 0;
+        background: none;
+        padding:0;
+        line-height: 2.4rem;
+        min-height: 30px}
+    #box_lesson-info img{ width: 95%; height: auto}
+    .lesson-list{ width: 57%}
+    .subinfo-01,
+    .subinfo-02,
+    .subinfo-03,
+    .subinfo-04{ 
+        background: none;
+        padding-left: 0;
+        padding-top: 30px}
+    .item-subinfo{ 
+        width: 95%;
+        margin: 0 auto 50px}
+    .contact-left{ width: 70%}
+    .contact-right{ width: 100%}
+    .btn_line{ margin: 0 5px}
 }
 
 /*
@@ -256,19 +348,13 @@
     .fitem-03 h3{ padding-left: 0}
     #down-social{ width: 70%;  padding-left: 0}
     #foot-info .fitem-03 p{font-size: 1.3rem}
-}
-
-
-/*
-=====================================
-for-retina-photo
-=====================================
-*/
-@media only screen and (-webkit-min-device-pixel-ratio: 2.0), only screen and (min-resolution: 2dppx),
-(-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 192dpi){
-    .foot-logo,
-    #top-menu h2 a{
-        background: url(../images/logo-footer@3x.png) no-repeat;
-        background-size: cover} 
+    
+    .lesson-list{ width: 70%}
+    .item-title{ 
+        font-size: 1.657rem;
+        line-height: 2.5rem}
+    .contact-left{ width: 95%}
+    .btn_line{ margin: 0 10px}
+    .contact-right{ display: none}
     
 }
