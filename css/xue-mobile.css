@@ -111,6 +111,22 @@
     .item-draw-02{ float: right; width: 480px}
     .item-draw-03{ float: left; width: 500px}
     .item-draw-04{ float: right; width: 500px}
+    
+    .item_staff img,
+    .staff-info{ float: none}
+    .staff-info{ width: 100%}
+    .staff-title-01{ width: 48%}
+    .staff-title-02{ width: 58%}
+    .staff-title-03{ width: 48%}
+    .staff-title-04{ width: 35%}
+    .staff-title-05{ width: 63%}
+    .staff-info h5{ padding: 15px 0}
+    
+    #playlist li{ width: 46%}
+    #playlist a{ top:25px; left: 100px}
+    
+    .products-info .btn_line,
+    .products-info .btn_facebook{ height: 33px}
 }
 
 /*
@@ -134,6 +150,8 @@
     #hdr-right p,
     #page-right h3,
     #page-right p{ display: none}
+    #container-main p{ display: block}
+    
     #mobile-nav{ 
         display: block;
         position: fixed;
@@ -223,6 +241,16 @@
     .contact-left{ width: 45%}
     .contact-right{ width: 55%}
     .contact-left ul{ padding: 30px 15px 0 20px}
+    
+    .item_staff{ padding-left: 80px}
+    .staff-title-01{ width: 62%}
+    .staff-title-02{ width: 75%}
+    .staff-title-03{ width: 62%}
+    .staff-title-04{ width: 45%}
+    .staff-title-05{ width: 82%}
+    
+    .mybtn-l{ margin: 0 auto}
+    .btn_backto{ float: none}
 }
 
 /*
@@ -235,6 +263,7 @@
     footer{
         width: 100%;
         min-width: 573px}
+    #main_content{ padding-bottom: 50px}
     #mobile-nav{ min-width: 573px}
     #foot-info{ flex-wrap: wrap}
     .fitem-01{ width: 30%; padding: 45px 0 0 20px}
@@ -267,6 +296,28 @@
         display: block;
         width: 360px;
         margin: 0 auto}
+    
+    #container-main h4{ padding: 0 0 10px 38px}
+    #container-main p{ padding-bottom: 15px}
+    .btn_facebook{ margin-left: 112px}
+    
+    .item_staff{ padding-left: 25px}
+    .staff-title-01{ width: 70%}
+    .staff-title-02{ width: 84%}
+    .staff-title-03{ width: 70%}
+    .staff-title-04{ width: 52%}
+    .staff-title-05{ width: 95%}
+    
+    #playlist a{ top:12px; left: 60px}
+    #products-list li{ width: 46%}
+    .products-photo,
+    .products-info{
+        float: none;
+        width: 95%;
+        padding-left: 0}
+    .products-info .btn_line,
+    .products-info .btn_facebook{ height: 36px}
+    .products-info .btn_facebook{ margin-left: 10px}
 }
 
 /*
@@ -295,7 +346,7 @@
         letter-spacing: 0;
         background: none;
         padding:0;
-        line-height: 2.4rem;
+        line-height: 2.6rem;
         min-height: 30px}
     #box_lesson-info img{ width: 95%; height: auto}
     .lesson-list{ width: 57%}
@@ -311,7 +362,34 @@
         margin: 0 auto 50px}
     .contact-left{ width: 70%}
     .contact-right{ width: 100%}
-    .btn_line{ margin: 0 5px}
+    .contact-left .btn_line,
+    .contact-left .btn_facebook{ display: inline-block}
+    .contact-left .btn_facebook{ margin-left: 5px}
+    .contact-left .btn_line{ margin: 0 5px}
+    
+    #bar_cookie{ display: none}
+    #container-main{ padding: 30px 15px 0}
+    #container-main scetion{ padding-bottom: 0}
+    
+    #box_staff{ display: block}
+    .item_staff{ width: 100%; padding-left: 65px}
+    .staff-title-01{ width: 60%}
+    .staff-title-02{ width: 75%}
+    .staff-title-03{ width: 60%}
+    .staff-title-04{ width: 45%}
+    .staff-title-05{ width: 80%}
+    
+    #playlist li{ width: 95%}
+    #playlist a{ top:35px; left: 115px}
+    #products-list li{ width: 96%}
+    .products-info span{
+        display: block;
+        padding-left: 83px}
+    .products-info .btn_line{ margin-bottom: 15px}
+    .products-info .btn_facebook{ 
+        display: block;
+        margin-left: 90px}
+    .psub-list{ padding-top: 50px}
 }
 
 /*
@@ -356,5 +434,27 @@
     .contact-left{ width: 95%}
     .btn_line{ margin: 0 10px}
     .contact-right{ display: none}
+    
+    #box_contact span,
+    .btn_line,
+    .btn_facebook{
+        display: block;
+        margin-left: 32px;
+        margin-bottom: 10px}
+    .products-info .btn_line{ margin-bottom: 15px}
+    .products-info .btn_line,
+    .products-info .btn_facebook{ 
+        display: block;
+        margin-left: 90px}
+    
+    #lesson-info{ padding-left: 0}
+    .item_staff{ padding-left: 35px}
+    .staff-title-01{ width: 68%}
+    .staff-title-02{ width: 83%}
+    .staff-title-03{ width: 68%}
+    .staff-title-04{ width: 56%}
+    .staff-title-05{ width: 88%}
+    
+    #playlist a{ top:20px; left: 80px}
     
 }

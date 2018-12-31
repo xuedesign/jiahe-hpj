@@ -41,7 +41,6 @@
 *       3.2 醫美產品+影音專區
 *       3.3 線上諮詢
 *       3.4 培訓課程
-*       3.5 錯誤頁
 * 4. 選單設定
 *       4.1 網站主選單
 *       4.2 上方社群連結
@@ -132,7 +131,7 @@ header,
 #container-page{
     display: block;
     width: 100%;
-    margin: 30px auto}
+    margin: 30px auto 0 auto}
 #container-main{
     display: block;
     width: 100%;
@@ -430,8 +429,11 @@ footer{
     padding-right: 8px;
     color: rgb(237, 219, 153)}
 .staff-info span{ padding-left: 21px}
-
-/*錯誤頁*/
+.staff-title-01{ width: 65%}
+.staff-title-02{ width: 83%}
+.staff-title-03{ width: 65%}
+.staff-title-04{ width: 50%}
+.staff-title-05{ width: 90%}
 
 /*
 =====================================
@@ -623,91 +625,6 @@ a.btn_backto:hover{
   -webkit-animation-duration: 1000ms;
   -moz-animation-duration: 1000ms;
   animation-duration: 1000ms}
-/*.fadeInUp-01{
-  -webkit-animation-delay: 500ms;
-  animation-delay: 500ms}
-
-@-webkit-keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(150px, 0, 0);
-    transform: translate3d(150px, 0, 0)}
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)}
-}
-
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(150px, 0, 0);
-    transform: translate3d(150px, 0, 0)}
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)}
-}
-
-
-.fadeInRight,
-.fadeInRight-01{
-    -webkit-animation-name: fadeInRight;
-    animation-name: fadeInRight;
-    -webkit-animation-duration: 900ms;
-    -moz-animation-duration: 900ms;
-    animation-duration: 900ms}
-.fadeInRight-01{
-    -webkit-animation-delay: 500ms;
-    animation-delay: 500ms}
-
-
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-150px, 0, 0);
-    transform: translate3d(-150px, 0, 0)}
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)}
-}
-
-.fadeInLeft{
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-    -webkit-animation-delay: 900ms;
-    animation-delay: 900ms;
-    -webkit-animation-duration: 1200ms;
-    -moz-animation-duration: 1200ms;
-    animation-duration: 1200ms}
-.fadeInLeft-01{
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-    -webkit-animation-duration: 900ms;
-    -moz-animation-duration: 900ms;
-    animation-duration: 900ms}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0}
-  to {
-    opacity: 1}
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0}
-  to {
-    opacity: 1}
-}
-
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    -webkit-animation-duration: 1500ms;
-    -moz-animation-duration: 1500ms;
-    animation-duration: 1500ms}*/
 
 /*
 =====================================

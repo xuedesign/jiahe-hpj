@@ -24,9 +24,9 @@ loadjs('https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', function() {
 loadjs('../script/lib/chatcode.js');
 
 //行動版選單
-loadjs("script/lib/overlay.modernizr.custom.js");
-loadjs("script/lib/overlay-classie.js");
-loadjs("script/lib/overlay-set.js");
+loadjs("../script/lib/overlay.modernizr.custom.js");
+loadjs("../script/lib/overlay-classie.js");
+loadjs("../script/lib/overlay-set.js");
 
 // 另開視窗
 function externalLinks() { 
