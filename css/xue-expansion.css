@@ -20,13 +20,15 @@
 
 .flexslider {
   margin: 0;
-  padding: 0}
+  padding: 0;
+  background-color: #d8d6d4}
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden}
 .flexslider .slides img {
   width: 100%;
   display: block;
+  background-color: #d8d6d4;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px}

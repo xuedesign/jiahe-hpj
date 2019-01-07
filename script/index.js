@@ -1,10 +1,10 @@
 //圖片輪播
-loadjs('script/lib/jquery.flexslider.js', function() {
-  $(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"});
-  });
-});
+//loadjs('script/lib/jquery.flexslider.js', function() {
+//  $(window).load(function() {
+//  $('.flexslider').flexslider({
+//    animation: "slide"});
+//  });
+//});
 
 //wow載入動畫
 loadjs('script/lib/wow.min.js', function() {

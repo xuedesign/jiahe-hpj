@@ -22,6 +22,14 @@
 <link rel="stylesheet" href="css/xue-expansion.css">
 <link rel="stylesheet" href="css/xue-mobile.css">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="script/lib/jquery.flexslider.js"></script>
+<script>
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"});
+  });    
+</script>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -68,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p>諮詢專線：(02)2557-8853 │  0928-334-522</p>
                 <div class="flexslider">
                     <ul class="slides">
-                        <li><img src="images/banner_index-01.jpg" alt="HPJ單細胞策略"/></li>
+                        <li><img class="lozad" data-src="images/banner_index-01.jpg" alt="HPJ單細胞策略"/></li>
                         <li><img class="lozad" data-src="images/banner_index-02.jpg" alt="HPJ單細胞策略"/></li>
                         <li><img class="lozad" data-src="images/banner_index-03.jpg" alt="HPJ單細胞策略"/></li>
                         <li><img class="lozad" data-src="images/banner_index-04.jpg" alt="嘉禾生技"/></li>
@@ -117,8 +125,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="item-products wow fadeInUp">
                     <img class="lozad item-draw-02" data-src="images/pic_product-draw-02.png" alt="*">
                     <div class="item-subinfo subinfo-02">
-                        <h4 class="item-title">早畫上朝氣腮紅，讓肌膚煥發出光彩和彈性。<br>最後確認一下包包的內容物。<br>出門囉！</h4>
-                        <p>旱地鼠尾草可將水分輸送進肌膚的基底層並舒緩肌膚，具有高濃度的類黃峒素，能瞬間保濕並有長效24小時保濕的效果。</p>
+                        <h4 class="item-title">一早醒膚的精華，讓肌膚煥發出光彩和彈性。<br>最後確認一下包包的內容物。<br>出門囉！</h4>
+                        <p>旱地鼠尾草可將水分輸送進肌膚的基底層並舒緩肌膚，具有高濃度的類黃酮素，能瞬間保濕並有長效24小時保濕的效果。</p>
                         <a href="products/salvia-sclarea.html" class="mybtn-xl btn_more">了解更多：舒緩賦活植萃精華液</a>    
                     </div>
                     <br class="clean"> 
@@ -218,7 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </nav>
 </div> 
 
-<script src="https://code.jquery.com/jquery.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/loadjs@3.5.5/dist/loadjs.min.js"></script>
 <script src="script/index.js"></script>
 <script type="application/ld+json">
