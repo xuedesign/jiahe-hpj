@@ -222,6 +222,9 @@ footer{
     color: #f50;
     text-decoration: none}
 
+/*banner下方廣告*/
+#mobile-adlink{ display: none}
+    
 /*
 =====================================
 頁面設定
@@ -526,6 +529,38 @@ footer{
 #down-social .icon_line a:hover,
 #down-social .icon_ig a:hover,
 #down-social .icon_mail a:hover{ opacity: 1}
+
+/*側邊廣告連結*/
+.box_leftlink{
+    display: block;
+    float: right;
+    width: 242px;
+    margin: 20px 50px 0 0;
+}
+.box_leftlink::after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+.btn_adlink-01,
+.btn_adlink-02{
+    display: block;
+    width: 242px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden
+}
+.btn_adlink-01{
+    height: 286px;
+    background: url(../images/btn_adlink-01.png) no-repeat;
+    margin-bottom: 21px;
+}
+.btn_adlink-02{
+    height: 185px;
+    background: url(../images/btn_adlink-02.png) no-repeat;
+}
 
 /*
 =====================================

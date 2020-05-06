@@ -127,6 +127,15 @@
     
     .products-info .btn_line,
     .products-info .btn_facebook{ height: 33px}
+
+    /*側邊廣告連結*/
+    .box_leftlink{ margin: 20px 20px 0 0}
+    .btn_adlink-01,
+    .btn_adlink-02{ 
+        width: 220px;
+        background-size: cover;}
+    .btn_adlink-01{ height: 260px}
+    .btn_adlink-02{ height: 168px}    
 }
 
 /*
@@ -251,6 +260,17 @@
     
     .mybtn-l{ margin: 0 auto}
     .btn_backto{ float: none}
+
+    #mobile-adlink{ 
+        display: flex;
+        flex-wrap:wrap;
+        width: 98%;
+        padding: 27px 52px 0 50px;
+        list-style: none;
+        justify-content: space-between}
+    #mobile-adlink li a{}   
+    #mobile-adlink li .btn_adlink-03{}
+    #mobile-adlink li .btn_adlink-04{} 
 }
 
 /*
