@@ -124,7 +124,7 @@ header,
     display: block;
     width: 1260px;/*1210px*/
     margin: 30px auto;
-    padding-top: 60px;
+    padding-top: 0;/*60px*/
     /*min-height: 500px;
     background-color: #f1f1f1*/}
 #container-page{
@@ -199,7 +199,7 @@ footer{
 #foot-info li{
     font-size: 1.5rem;
     line-height: 2.5rem;
-    color: #ECE7C6}
+    color: #ECE7C6}   
 
 /*
 =====================================
@@ -339,6 +339,21 @@ footer{
     list-style: none;
     margin: 15px 0;
     border-bottom: 1px dotted #cbc6c0}
+
+ /*廣告Banners*/   
+#index-adlink{ 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 98%;
+    padding-bottom: 40px}
+#index-adlink a{
+    display: block;
+    width: 38%;
+    margin: 0 1%}
+#index-adlink img{
+    width: 100%;
+    height: auto}    
 /*
 =====================================
 選單設定

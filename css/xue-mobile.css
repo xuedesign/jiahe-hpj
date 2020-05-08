@@ -265,12 +265,19 @@
         display: flex;
         flex-wrap:wrap;
         width: 98%;
-        padding: 27px 52px 0 50px;
-        list-style: none;
-        justify-content: space-between}
-    #mobile-adlink li a{}   
-    #mobile-adlink li .btn_adlink-03{}
-    #mobile-adlink li .btn_adlink-04{} 
+        margin-bottom: 15px;
+        /*padding: 27px 52px 0 50px;*/
+        justify-content: space-between;
+        /*border: 1px solid #111*/}
+    #mobile-adlink a{
+        display: block;
+        width: 48%;
+        margin: 0 1%}
+    #mobile-adlink img{
+        width: 100%;
+        height: auto}
+    #index-adlink a{ width: 48%}
+
 }
 
 /*
@@ -361,7 +368,9 @@
     .fitem-03 h3{ padding-left: 105px}
     #down-social{ width: 85%;  padding-left: 105px}
     
-    #container-index{ padding-top: 20px}
+    #container-index{ 
+        padding-top: 0;
+        margin-bottom: 0}
     .item-index h3{ 
         letter-spacing: 0;
         background: none;
@@ -410,6 +419,16 @@
         display: block;
         margin-left: 90px}
     .psub-list{ padding-top: 50px}
+
+    #mobile-adlink{
+        margin-bottom: 0}
+    #mobile-adlink a{
+        display: block;
+        width: 100%;
+        margin: 1% 0}
+    #index-adlink a{ 
+        width: 100%;
+        margin: 1% 0}        
 }
 
 /*
