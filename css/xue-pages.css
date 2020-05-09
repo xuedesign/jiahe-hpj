@@ -26,9 +26,9 @@
 *
 *
 * @project    JIAHE Biochemical co., ltd
-* @Author     Elmo Woo <hello@xuedesign.tw>
-* @copyright  2018 xuedesign studio
-* @version    v2.0 - 201812
+* @Author     Tachimoma <hello@xuedesign.tw>
+* @copyright  2020 xuedesign studio
+* @version    v2.1 - 202005
 *
 *=====================================
 * 0. Reset重置
@@ -41,6 +41,7 @@
 *       3.2 醫美產品+影音專區
 *       3.3 線上諮詢
 *       3.4 培訓課程
+*       3.5 醫師代言介紹
 * 4. 選單設定
 *       4.1 網站主選單
 *       4.2 上方社群連結
@@ -356,7 +357,8 @@ footer{
     width: 100%;
     padding-left: 38px}
 #box_contact li,
-.products-info li{
+.products-info li,
+#doctor-info li{
     font-size: 1.6rem;
     line-height: 2.4rem;
     list-style: none;
@@ -382,7 +384,8 @@ footer{
     margin: 15px 35px;
     border-bottom: 1px dotted #cbc6c0}
 #lesson-info i,
-#box_contact i{
+#box_contact i,
+#doctor-info i{
     font-size: 1rem;
     padding-right: 15px;
     color: rgb(237, 219, 153)}
@@ -437,6 +440,185 @@ footer{
 .staff-title-03{ width: 65%}
 .staff-title-04{ width: 35%}
 .staff-title-05{ width: 75%}
+
+/*醫師代言介紹*/
+#doctor-info{
+    display: flex;
+    width: 100%}
+.doctor-photo{
+    display: block;
+    width: 341px;
+    height: 488px; 
+    margin-right: 5%;}
+#doctor-main{}
+#doctor-main h5{
+    padding-top: 62px;
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    font-weight: 500;
+    padding-bottom: 26px;} 
+#doctor-sologen{ display: flex}
+#doctor-sologen p{
+    font-size: 1.8rem;
+    line-height: 4rem;
+    padding: 0 20px 0 10px;
+    border-left: 7px solid rgb(179, 156, 118)}
+#doctor-sologen strong{ 
+    padding: 0 2px;
+    color: rgb(179, 156, 118);}
+#doctor-sologen img{ margin-top: 15px;}
+
+#doctor-film{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+#doctor-film iframe{
+    width: 98%;
+    height: calc(486px * 0.98);
+}
+
+#doctor-promo{
+    display: block;
+    width: 100%;
+    padding: 2% 0 0;
+    margin-bottom: 0;}
+#doctor-promo h5{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: normal;
+    color: #735E14;
+    text-align: center;
+}
+#doctor-promo h6{
+    font-size: 3.5rem;
+    line-height: 7rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #FA7F39;
+    text-align: center}
+#doctor-promo p{
+    padding-left: 0}
+
+#ppitem-01{ margin: 70px 0 30px;}
+#ppitem-02{ margin-bottom: 30px;}   
+.promo-item{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 410px}
+.promo-item span,
+.promo-item strong,
+.promo-item p,
+.ppp-01,
+.ppp-02,
+.doctor-01,
+.doctor-02,
+.promo-box{ position: absolute}
+
+.promo-item span{
+    font-size: 2rem;
+    line-height: 2.4rem}
+.promo-item strong{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 7rem;
+    color: #FA7F39}
+#ppitem-01 span{
+    top: 10%;
+    left: 26%;
+    z-index: 1;}
+#ppitem-01 strong{
+    top: 13%;
+    left: 26%;
+    z-index: 1;}
+#ppitem-01 p{
+    display: block;
+    top: 30%;
+    left: 26%;
+    width: 39%;
+    z-index: 1;}  
+#ppitem-02 span{
+    top: 15%;
+    left: 42%;
+    z-index: 1;}
+#ppitem-02 strong{
+    top: 18%;
+    left: 42%;
+    z-index: 1;}
+#ppitem-02 p{
+    display: block;
+    top: 35%;
+    left: 42%;
+    width: 39%;
+    z-index: 1;}       
+.ppp-01{
+    top: -50px;
+    left: 30px;
+    z-index: 1}
+.ppp-02{
+    top: -40px;
+    right: 30px;
+    z-index: 1}
+.doctor-01{
+    right: 0;
+    bottom: 85px;
+    z-index: 10}
+.doctor-02{
+    left: 0;
+    bottom: 50px;
+    z-index: 10}
+.promo-box{
+    display: block;
+    width: 628px;
+    height: 259px;
+    border: 6px solid #EDDB99;
+    border-radius: 20px}
+.pbox-02{
+    top:0;
+    right:0}
+    
+#experience h3{ 
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    margin: 0 auto;
+    padding:0 80px 30px;
+    background: url(../images/bg_title-line.png) bottom center no-repeat;
+    background-size: 820px 28px;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(115, 94, 20)}  
+#box-experience{ 
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 0}
+#box-experience::after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}    
+#box-experience img{
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;}    
+#experience-main{
+    display: block;
+    width: 58%;
+    float: right;
+    padding: 15px 0 0 0}
+#experience-main a,
+#experience-main a:hover{
+    text-decoration: none} 
+#experience-main a:hover{ 
+    letter-spacing: 1px;
+    color: #fff;}        
 
 /*
 =====================================
@@ -535,32 +717,27 @@ footer{
     display: block;
     float: right;
     width: 242px;
-    margin: 20px 50px 0 0;
-}
+    margin: 20px 50px 0 0}
 .box_leftlink::after{
     content: ".";
     display: block;
     height: 0;
     clear: both;
-    visibility: hidden
-}
+    visibility: hidden}
 .btn_adlink-01,
 .btn_adlink-02{
     display: block;
     width: 242px;
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden
-}
+    overflow: hidden}
 .btn_adlink-01{
     height: 286px;
     background: url(../images/btn_adlink-01.png) no-repeat;
-    margin-bottom: 21px;
-}
+    margin-bottom: 21px}
 .btn_adlink-02{
     height: 185px;
-    background: url(../images/btn_adlink-02.png) no-repeat;
-}
+    background: url(../images/btn_adlink-02.png) no-repeat}
 
 /*
 =====================================

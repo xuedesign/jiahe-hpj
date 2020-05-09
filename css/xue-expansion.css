@@ -20,8 +20,7 @@
 
 .flexslider {
   margin: 0;
-  padding: 0;
-  background-color: #d8d6d4}
+  padding: 0}
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden}
@@ -48,7 +47,6 @@ html[xmlns] .flexslider .slides {
 
 .flexslider {
   margin: 0;
-  background: #fff;
   border: 4px solid #fff;
   position: relative;
   zoom: 1;
@@ -72,7 +70,7 @@ html[xmlns] .flexslider .slides {
   -o-transition: all 1s ease;
   transition: all 1s ease}
 .loading .flex-viewport {
-  max-height: 300px}
+  max-height: 300px;}
 @-moz-document url-prefix() {
   .loading .flex-viewport {
     max-height: none;
