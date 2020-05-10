@@ -1,4 +1,4 @@
 {
     "editor.quickSuggestions": null,
-    "editor.hover.enabled": false
+    "files.autoSave": "afterDelay"
 }

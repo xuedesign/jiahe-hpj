@@ -135,7 +135,90 @@
         width: 220px;
         background-size: cover;}
     .btn_adlink-01{ height: 260px}
-    .btn_adlink-02{ height: 168px}    
+    .btn_adlink-02{ height: 168px}
+    
+    /*醫生介紹頁*/
+    .doctor-photo{
+        width: 25%;
+        height: 25%; 
+        margin-right: 5%;}
+    #doctor-main{ width: 69%;}
+    #doctor-film{
+        margin: 20px auto 0 auto}
+    #doctor-film iframe{
+        width: 100%;
+        height: 390px}
+    
+    .promo-item{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 350px}
+    .doctor-01{
+        display: block;
+        width: 200px;
+        height: 272px;
+        right: -40px;
+        bottom: 70px;
+        z-index: 10}
+    .doctor-02{
+        display: block;
+        width: 220px;
+        height: 299px;
+        left: -20px;
+        bottom: 50px;
+        z-index: 10}
+    .ppp-01{
+        width: 110px;
+        height: 204px;
+        top: -50px;
+        left: 30px;
+        z-index: 1}
+    .ppp-02{
+        width: 180px;
+        height: 138px;
+        top: -10px;
+        right: -10px;
+        z-index: 1}    
+    #ppitem-01{ margin: 70px 0 0;}
+    #ppitem-02{ margin-bottom: 30px;}
+    #ppitem-01 span{
+        top: 9%;
+        left: 26%;
+        z-index: 1;}
+    #ppitem-01 strong{
+        top: 12%;
+        left: 26%;
+        z-index: 1;}
+    #ppitem-01 p{
+        display: block;
+        top: 29%;
+        left: 26%;
+        width: 48%;
+        z-index: 1;}  
+    #ppitem-02 span{
+        top: 13%;
+        left: 35%;
+        z-index: 1;}
+    #ppitem-02 strong{
+        top: 16%;
+        left: 35%;
+        z-index: 1;}
+    #ppitem-02 p{
+        display: block;
+        top: 33%;
+        left: 35%;
+        width: 39%;
+        z-index: 1;}
+    #experience h3{
+        background-size: 600px 28px}
+    #box-experience img{
+        width: 180px;
+        height: 137px}
+    #experience-main{ 
+        width: 64%;
+        padding: 0;}
+    #experience-main p{ padding:0 15px 15px 15px}                   
 }
 
 /*
@@ -278,6 +361,9 @@
         height: auto}
     #index-adlink a{ width: 48%}
 
+    /*醫師介紹頁*/
+    #experience h3{ display: block;}
+
 }
 
 /*
@@ -345,7 +431,88 @@
     .products-info .btn_line,
     .products-info .btn_facebook{ height: 36px}
     .products-info .btn_facebook{ margin-left: 10px}
-}
+
+    /*醫師介紹頁*/
+    #doctor-info{ 
+        display: block;}
+    .doctor-photo{
+        width: 50%;
+        height: 50%; 
+        margin: 0 auto}
+    #doctor-main{ 
+        width: 95%;
+        margin: 0 auto;}
+    #doctor-main h5{
+        padding-top: 15px;
+        padding-bottom: 15px;}
+    #doctor-film iframe{
+        height: 320px}
+    .promo-box{
+        width: 100%;
+        height: 259px}
+    #doctor-promo h6{ letter-spacing: 0;}        
+    .doctor-01{
+        width: 120px;
+        height: 163px;
+        right: -20px;
+        top: -95px;
+        bottom: 0;}
+    #ppitem-01 span{
+        top: 9%;
+        left: 32%;
+        z-index: 1;}
+    #ppitem-01 strong{
+        top: 12%;
+        left: 32%;
+        z-index: 1;}
+    #ppitem-01 p{
+        display: block;
+        top: 29%;
+        left: 32%;
+        width: 55%;
+        z-index: 1;}    
+    .doctor-02{
+        width: 120px;
+        height: 163px;
+        right: -20px;
+        top: -95px;
+        bottom: 0;}
+    .ppp-02{
+        top: -45px;
+        right: -10px} 
+    #ppitem-02 span{
+        top: 16%;
+        left: 20%;
+        z-index: 1;}
+    #ppitem-02 strong{
+        top: 19%;
+        left: 20%;
+        z-index: 1;}
+    #ppitem-02 p{
+        display: block;
+        top: 40%;
+        left: 20%;
+        width: 60%;
+        z-index: 1;}
+    #ppitem-02{ margin-bottom: 0}
+    #ppitem-02.promo-item{
+        height: 320px}
+
+    #experience h3{
+        padding:0 40px 30px;
+        background-size: 100% 28px}
+    #box-experience img{
+        float: none;
+        width: 85%;
+        height: auto;
+        margin: 0 auto 15px auto;}
+    #experience-main{
+        float: none; 
+        width: 100%;
+        padding: 0;}
+    #experience-main p{ padding:0 0 20px}          
+
+} 
 
 /*
 =====================================
@@ -428,7 +595,63 @@
         margin: 1% 0}
     #index-adlink a{ 
         width: 100%;
-        margin: 1% 0}        
+        margin: 1% 0}
+    
+    /*醫師介紹頁*/
+    #doctor-sologen{ display: block}
+    #doctor-sologen img{
+        display: block;
+        margin: 15px auto 30px auto}
+    #doctor-film iframe{
+        height: 230px}
+   
+    #doctor-promo h6{
+        font-size: 2.5rem;
+        line-height: 5rem}
+    .promo-item span{
+        font-size: 1.8rem;
+        line-height: 2.2rem}
+    .promo-item strong{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        line-height: 6rem;
+        color: #FA7F39}
+    
+    .promo-item{ height: 600px}
+    .promo-box{ height: 500px}
+    .ppp-01{
+        top: 35px;
+        left: 35%}
+    #ppitem-01 span{
+        top: 45%;
+        left: 5%;
+        z-index: 1;}
+    #ppitem-01 strong{
+        top: 48%;
+        left: 5%;
+        z-index: 1;}
+    #ppitem-01 p{
+        display: block;
+        top: 58%;
+        left: 5%;
+        width: 90%;
+        z-index: 1;}
+    .ppp-02{
+        top: 35px;
+        left: 30%}
+    #ppitem-02{ margin-bottom: 100px;}     
+    #ppitem-02 span{
+        top: 60%;
+        left: 5%;}
+    #ppitem-02 strong{
+        top: 64%;
+        left: 5%;}
+    #ppitem-02 p{
+        top: 82%;
+        left: 5%;
+        width: 90%}
+    #ppitem-02>.promo-item{ height: 400px} 
+    #ppitem-02>.promo-box{ height: 370px}    
 }
 
 /*
